@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.login-page{
+    width: 100%;
+    background-color: rgb(255, 239, 239);
+}
+
+
+/* ===========login-form inicio========== */
+.login-form{
+    margin-top:300px ;  
+}
+
+.box{
+    position: relative;
+    /* display: none; */
+    width: 400px;   
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 246, 246);
+    /* background-image: url(/img/categori/presentes-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    text-align: center;
+}
+.title-login-form{
+    background-color: transparent;
+    padding: 10px;
+  
+    
+   
+}
+
+.box input[type = "text"], .box input[type ="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid #e67e22;
+    padding:14px 10px ;
+    width: 200px;
+    border-top: none;
+    border-right:none ;
+    border-left: none;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    transition:0.25s;
+
+}
+.box input[type = "text"]:focus,.box input[type = "password" ]:focus {
+    width: 280px;
+    border-color: #e67e22   ;
+
+}
+.box input[type = "submit"]{
+    border: 0;
+    background:#e67e22 ;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid #e67e22 ;
+    padding:14px 40px ;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 14px;
+    transition:0.25s;
+    cursor: pointer;
+}
+ 
+.box input[type = "submit"]:hover{
+    background-color:#e67e22 ;
+}
+.footer-copyright{
+    height: 0px;
+}
+.footer-copyright p{
+    margin-top: 5px;
+}
+
+/* ===========login-form Fim========== */
+
+/* ===========login-form Inicio========== */
+@media (max-width:320px){
+    .login-form{
+        margin-top:350px ;  
+    }
+    
+    .box{
+        position: relative;
+        width: 280px;   
+        padding: 40px;
+
+    }
+       
+   
+    .box input[type = "text"], .box input[type ="password"]{
+        width: 150px;    
+    }
+    .box input[type = "text"]:focus,.box input[type = "password" ]:focus {
+        width: 200px;
+        border-color: #e67e22   ;
+    
+    }     
+    .box input[type = "submit"]:hover{
+        background-color:#e67e22 ;
+    }
+    
+}
+@media (min-width:321px) and (max-width:375px){
+    .login-form{
+        margin-top:350px ;  
+    }
+    
+    .box{
+        position: relative;
+        width: auto;   
+        padding: 60px;
+
+    }
+       
+    .box input[type = "text"], .box input[type ="password"]{
+        width: 160px;    
+    }
+    .box input[type = "text"]:focus,.box input[type = "password" ]:focus {
+        width: 200px;
+        border-color: #e67e22   ;
+    }
+    .box input[type = "submit"]:hover{
+        background-color:#e67e22 ;
+    }
+    
+}
+
+@media (min-width:376px) and (max-width:414px){
+    .login-form{
+        margin-top:350px ;  
+    }
+    .box{
+
+        width: auto;  
+    }
+          
+    .box input[type = "text"], .box input[type ="password"]{
+        width: 190px;    
+    }
+    .box input[type = "text"]:focus,.box input[type = "password" ]:focus {
+        width: 230px;
+        border-color: #e67e22   ;
+    
+    }
+
+    .box input[type = "submit"]:hover{
+        background-color:#e67e22 ;
+    }
+    
+}
+
+@media (min-width:415px) and (max-width:520px){
+    .login-form{
+        margin-top:350px ;  
+    }
+    .box{
+
+        width: 400px; 
+    } 
+          
+    .box input[type = "text"], .box input[type ="password"]{
+        width: 190px;    
+    }
+    .box input[type = "text"]:focus,.box input[type = "password" ]:focus {
+        width: 230px;
+        border-color: #e67e22   ;
+    
+    }
+
+    .box input[type = "submit"]:hover{
+        background-color:#e67e22 ;
+    }
+    
+}
+@media (min-width:521px) and (max-width:768px){
+    .login-form{
+        margin-top:350px ;  
+    }
+    .box{
+
+        width: 450px;  
+    }
+          
+    .box input[type = "text"], .box input[type ="password"]{
+        width: 200px;    
+    }
+    .box input[type = "text"]:focus,.box input[type = "password" ]:focus {
+        width: 260px;
+        border-color: #e67e22   ;
+    
+    }
+
+    .box input[type = "submit"]:hover{
+        background-color:#e67e22 ;
+    }
+    
+}
+@media (min-width:768px) and (max-width:1024px){
+    .box{
+        width: 500px;   
+        padding: 50px;
+        margin-top: 100px;
+    }
+    .box input[type = "text"], .box input[type ="password"]{
+        width: 250px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "password" ]:focus {
+        width: 320px;
+    
+    }
+    .footer-copyright{
+        background-color:rgb(255, 240, 240) ;
+
+    }
+    .footer-copyright p{
+        color: black;
+        height: auto;
+        background-color:rgb(255, 240, 240) ;
+
+    }
+  
+}
+@media (min-width:1024px) and (max-width:1025px) {
+    .footer-copyright{
+        background-color: rgb(255, 240, 240);
+        bottom: 0;
+        width: 100%;
+        position: absolute;        
+    }
+
+}
+.social-login i {
+    color: black;
+    margin-left: 2px;
+}
+/* ===========login-form Fim========== */

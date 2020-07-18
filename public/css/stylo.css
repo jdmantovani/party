@@ -1,0 +1,650 @@
+*{
+  box-sizing: border-box;
+
+}
+
+.home {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  color: #0b1c39;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: normal;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: #506172;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+/***************Sub_header****************/
+.sub_header {
+  padding: 0;
+  background-color: rgb(255, 246, 246);
+}
+
+
+.sub_header .sub_header_social_icon a i {
+  margin-right: 12px;
+  color: #53C9BB;
+}
+
+.sub_header .sub_header_social_icon .register_icon {
+  border: 1px solid #e5e9ed;
+  padding: 9px 26px 9px 60px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.sub_header .sub_header_social_icon .register_icon i {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #e5e9ed;
+  border-radius: 50%;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.sub_header .sub_header_social_icon .register_icon:hover {
+  padding: 9px 60px 9px 26px;
+  background-color: #53C9BB;
+  color: #fff;
+}
+
+.sub_header .sub_header_social_icon .register_icon:hover i {
+  left: auto;
+  right: -14px;
+  top: -1px;
+  color: #fff;
+}
+
+.sub_header .sub_header_social_icon a i {
+  font-size: 12px;
+  color: #fff;
+  background-color: #53C9BB;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+
+/******-header******/
+.navbar{
+    top: 0;
+    z-index: 1; 
+    font-size: 0.8rem;
+    position: -webkit-sticky;
+}
+
+
+.color-nav {
+  background-color: black;
+}
+
+.font-nav {
+    color: whitesmoke!important;
+    letter-spacing:9px;
+}
+
+.nav-item:hover {
+    font-weight: bold!important;
+}
+
+.dropdown-menu {
+  background-color: black; 
+  font-weight: bold!important;
+}
+
+.dropdown-item:hover {
+  background-color: black;  
+  font-weight: bold;
+}
+.navbar-toggler{
+  background-color: rgba(253, 235, 230); 
+
+}
+
+/**************** banner part ****************/
+.banner_part {
+  height: 420px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image: url("../img/banner_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+/**************** banner text ****************/
+
+.banner_part .banner_text {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 99;
+  margin-top: 60px;
+}
+
+.banner_part .banner_text .banner_text_iner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner_part .banner_text h5 {
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #FF5B5B;
+  line-height: 25px;
+}
+
+.banner_part .banner_text h1 {
+  font-size: 40px;
+  line-height: 90px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin: 23px 0 45px;
+}
+
+
+
+/*************about************/
+.about{
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+.about-img{    
+  height: 450px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image: url("../img/about2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-text h3{
+  line-height: 58px;
+  margin: 25px 0;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 900; 
+  
+}
+
+
+/******* nossos-servicos *****/
+.nossos-servicos{
+  margin: auto;
+}
+
+.site-section {
+  padding: 2.5em 0; 
+}
+
+.heading-section h2 {
+  text-transform: uppercase;
+  font-weight: 900; 
+  
+}
+.heading-section h2:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 3px;
+	width: 80px;
+	height: 3px;
+	background: #e7ab3c;
+	content: "";
+	margin: 0 auto;
+} 
+
+  /* ************Eventos & Reuniões ************ */
+
+/***titulo-eventos&reunioes**** */
+
+.eventos-reunioes-titulo h2{
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.eventos-reunioes-titulo h2:before {
+	position: absolute;
+	left: 0;
+  right: 0;
+  bottom: -5px;
+	width: 80px;
+	height: 3px;
+	background: #e7ab3c;
+	content: "";
+	margin: 0 auto;
+}
+/* <!********carousel-Eventos & Reunioes*******> */
+.eventos-reunioes{
+  margin: auto;
+  width: 90%  ;
+  }
+  .b-0 {
+    bottom: 0;
+}
+.bg-shadow {
+    background: rgba(211, 209, 209, 0);
+    background: linear-gradient(to bottom, rgba(236, 224, 224, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
+}
+.top-indicator {
+    right: 0;
+    top: 1rem;
+    bottom: inherit;
+    left: inherit;
+    margin-right: 1rem;
+    
+}
+.overflow {
+    position: relative;
+    overflow: hidden;
+}
+.zoom img {
+    transition: all 0.2s linear;
+}
+.zoom:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ----carousel-produtos----- */
+.carousel-produtos{
+  margin: auto;
+
+}
+
+.titulo-carousel-produtos h1{
+  text-transform: capitalize;
+  font-weight: 900; 
+
+}
+.titulo-carousel-produtos h1:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -14px;
+	width: 80px;
+	height: 3px;
+	background: #e7ab3c;
+	content: "";
+	margin: 0 auto;
+}
+
+  .titlebar {
+    overflow: hidden;
+  }
+  
+  .titlebar .next-back {
+    /* float: right;
+    margin: 12px 15px; */
+  justify-content: center;
+  margin-bottom:15px ;
+  }
+  .titlebar .next-back span a {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Poppins;
+    color: #222222;
+  }
+  .titlebar .next-back span a:hover {
+    text-decoration: none;
+    color: #888888;
+  }
+  .titlebar .next-back span {
+    border-right: 1px solid #000;
+    padding: 0 8px 0 5px;
+    display: inline-block;
+    line-height: 10px;
+  }
+  .titlebar .next-back span:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+  
+  .carousel-inner-produtos > .carousel-item {
+   -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+   -o-transition: -o-transform 1.2s ease-in-out !important;
+   transition: transform 1.2s ease-in-out !important;
+  } 
+  
+  .carousel {
+    margin-bottom: 0;
+    padding: 0 0 30px 0;
+  }
+  
+  
+  .arrival-product .arrival-item ul {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .arrival-product .arrival-item ul li {
+    float: left;
+    list-style: none;
+    width: 15%;
+    overflow: hidden;
+    margin-right: 2.6%;
+    margin-left: 2.6%;
+  }
+  .arrival-product .arrival-item ul li:last-child {
+    margin-right: 0;
+  }
+ 
+
+.arrival-product .arrival-item ul {
+  margin: 0;
+  padding: 0;
+  
+}
+.arrival-product .arrival-item ul li {
+  float: left;
+  list-style: none;
+  width: 15%;
+  overflow: hidden;
+  margin-right: 2.6%;
+  margin-left: 2.6%;
+}
+.arrival-product .arrival-item ul li:last-child {
+  margin-right: 0;
+}
+.overflow-produtos {
+  position: relative;
+  overflow: hidden;
+}
+.zoom-produtos img {
+  transition: all 0.2s linear;
+}
+.zoom-produtos:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* ----FIM carousel-produtos----- */
+
+
+/* <!------ banner frete gratis-----> */
+
+.banner-fretegratis {
+	border: 1px solid #ebebeb;
+  margin: auto;
+  width: 90%;
+}
+
+.banner-fretegratis .single-benefit {
+	padding-top: 30px;
+	padding-bottom: 25px;
+	padding-left: 55px;
+	padding-right: 55px;
+	border-right: 1px solid #F3F4F0;
+}
+
+.banner-fretegratis .single-benefit .sb-icon {
+	float: left;
+  margin-right: 20px;
+
+}
+
+.banner-fretegratis .single-benefit .sb-text {
+	display: table;
+}
+
+.banner-fretegratis .single-benefit .sb-text h6 {
+	color: #252525;
+	line-height: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.banner-fretegratis .single-benefit .sb-text p {
+	margin-bottom: 0;
+	color: #252525;
+	line-height: 20px;
+}
+
+
+
+
+
+
+/*-------Seu -Espaço--------*/
+
+.latest-blog {
+	padding-top: 72px;
+  padding-bottom: 80px;
+  margin-top: 50px;
+}
+
+.latest-blog .section-titulo {
+	margin-bottom: 55px;
+}
+.fotoespaco_cliente{
+  width: 45%;
+  margin-left: 65px;
+}
+.img-thumbnail-seu-espaco{
+  border: none!important;
+
+
+}
+.seu-espaco-comentarios {
+  margin-bottom: 25px;
+  
+}
+
+.seu-espaco-comentarios img {
+  min-width: 100%;
+  
+}
+
+.seu-espaco-comentarios .seu-espaco-comentarios {
+	padding-top: 25px;
+}
+
+.seu-espaco-comentarios .seu-espaco-comentarios .tag-list {
+	margin-bottom: 8px;
+}
+
+.seu-espaco-comentarios .seu-espaco-comentarios .tag-list .tag-item {
+	font-size: 16px;
+	color: #a2a1a1;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.seu-espaco-comentarios .seu-espaco-comentarios .tag-list .tag-item i {
+	color: #e7ab3c;
+}
+
+.seu-espaco-comentarios .seu-espaco-comentarios a {
+	display: block;
+}
+
+.seu-espaco-comentarios .seu-espaco-comentarios a h4 {
+	color: #252525;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 16px;
+}
+
+
+
+/*------Seu espaço texto--------*/
+.seu-espaco{
+  margin: auto;
+}
+.section-titulo {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.section-titulo .product-price {
+	font-size: 24px;
+	font-weight: 700;
+	color: #e7ab3c;
+}
+
+.section-titulo .product-price span {
+	font-size: 16px;
+	font-weight: 400;
+	color: #636363;
+}
+
+.section-titulo h2 {
+	color: #252525;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 38px;
+  position: relative;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.section-titulo h2:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -14px;
+	width: 80px;
+	height: 3px;
+	background: #e7ab3c;
+	content: "";
+	margin: 0 auto;
+}
+
+.section-titulo p {
+	color: #6e6e6e;
+}
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.enquadramento {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+/* ------footer------*/
+.footer-container{
+  margin: auto;
+  background-image: url(../img/services_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-img{
+  margin-top: 6rem;
+}
+.footer-conteudo{
+  text-align: center;  
+}
+.footer-conteudo-servicos h5{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 6rem;
+  
+}
+ 
+.footer-conteudo-ajuda h5{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 6rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,376 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
+
+.sobre-nos{
+    margin: 0;
+    padding: 0; 
+}
+ /******* sobre-nos-petyParty-história  Inicio *****/   
+ .sobre-nos-petyParty-história{
+    height: 625px;
+    background-image: url(../img/categori/5a327b659961b6bad88990851678756b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sobre-nos-petyParty-história h3{
+    font-size: 36px;
+    color: black;
+    line-height: 1,0;
+    font-weight: 600; 
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+.sobre-nos-petyParty-história p{
+    margin-left:20px;
+    margin-right:20px;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+}
+ /******* sobre-nos-petyParty-história  Fim *****/ 
+
+/******* sobre-nos-patyParty  Inicio *****/
+.sobre-nos-patyParty{
+    height: 625px;
+    background-color: rgb(56, 56, 56);    
+}
+.sobre-nos-patyParty h3{
+    font-size: 36px;
+    color: white;
+    line-height: 1,0;
+    font-weight: 600;    
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos-patyParty p{
+    margin-left:20px;
+    margin-right:20px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+/******* sobre-nos-patyParty  Fim *****/
+
+ 
+/******* sobre-nos section Inicio *****/
+.sobre-nos-section{
+    background-color:rgb(71, 71, 71);
+    height: auto;
+}
+/******* section-missao  Inicio *****/
+.section-missao{
+    background-color:rgb(71, 71, 71);
+    text-align: center;
+    height:auto;  
+}
+
+.section-titulo-missao{
+    font-size:36px ;
+    color: white;
+    line-height: 1,0;
+    font-weight: 600;
+    
+}
+.section-texto-missao{
+    margin-left:20px;
+    margin-right:20px;    
+    color: white;
+    font-weight: 400;
+    text-align: left;
+
+}
+.section-missao p img{
+    width: 50px;
+    margin-top: 15px;
+}
+/******* section-missao  fim *****/
+
+/******* section-visao  Inicio *****/
+.section-visao{
+    text-align: center;
+    background-color:black;
+    height:auto;
+}
+
+.section-titulo-visao{
+    font-size:36px ;
+    color: white;
+    line-height: 1,0;
+    font-weight: 600;
+}
+.section-texto-visao{
+    margin-left:20px;
+    margin-right:20px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+.section-visao p img{
+    width: 50px;
+    margin-top: 15px;
+}
+
+/******* section-visao  Fim *****/
+
+/******* section-valores  Inicio *****/
+.section-valores{
+    background-color:rgb(71, 71, 71);
+    text-align: center;
+    height:auto;
+}
+.section-titulo-valores{
+    font-size:36px ;
+    color: white;
+    line-height: 1,0;
+    font-weight: 600;
+}
+.section-texto-valores{
+    margin-left:20px;
+    margin-right:20px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+
+}
+.section-valores p img{
+    width: 50px;
+    margin-top: 15px;
+}
+
+
+/******* section-valores  Fim *****/
+
+/******* espaco  Inicio *****/
+
+.espaco-section{
+    background-color:rgb(71, 71, 71);
+    height:75px;
+    margin: 0;
+    padding: 0;
+
+}
+.espaco-footer{
+    background-color:rgb(71, 71, 71);
+    height: 75px;
+    margin: 0;
+    padding: 0; 
+
+}
+/******* espaco  Fim *****/
+
+
+.sobre-nos-footer{
+    background-color:rgba(253, 235, 230);
+    
+   
+}
+
+.sobre-nos-footer p{
+    color: black;
+}
+
+/******* sobre-nos section Fim *****/
+
+/******* query sobre-nos inicio *****/
+
+@media (max-width: 360px){
+    .sobre-nos-petyParty-história h3{
+        font-size: 36px;
+        color: black;
+        line-height: 1,0;
+        font-weight: 600; 
+        text-align: center;       
+        margin-bottom: 20px;
+    
+    }
+    .sobre-nos-petyParty-história p{
+        margin-left:75px;
+        margin-right:75px;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        text-align: left;
+    }
+    .sobre-nos-petyParty-história{
+        height: 625px;
+        background-image: url(../img/categori/5a327b659961b6bad88990851678756b.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media  (min-width:361px) and (max-width:574px){
+    .sobre-nos-petyParty-história h3{
+        font-size: 36px;
+        color: white;
+        line-height: 1,0;
+        font-weight: 600; 
+        text-align: center;       
+        margin-bottom: 20px;
+    
+    }
+    .sobre-nos-petyParty-história p{
+        margin-left:75px;
+        margin-right:75px;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        text-align: left;
+    }
+    .sobre-nos-petyParty-história{
+        height: 625px;
+        background-image: url(../img/categori/5a327b659961b6bad88990851678756b.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+@media  (min-width:575px) and (max-width:764px){
+    .sobre-nos-petyParty-história h3{
+        font-size: 36px;
+        color: white;
+        line-height: 1,0;
+        font-weight: 600; 
+        text-align: center;       
+        margin-bottom: 20px;
+    
+    }
+    .sobre-nos-petyParty-história p{
+        margin-left:55px;
+        margin-right:55px;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        text-align: left;
+    }
+    .sobre-nos-petyParty-história{
+        height: 625px;
+        background-image: url(../img/categori/5a327b659961b6bad88990851678756b.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+@media (min-width: 765px) and (max-width: 1024px){
+    .sobre-nos-petyParty-história h3{
+        font-size: 36px;
+        color: black;
+        line-height: 1,0;
+        font-weight: 600; 
+        text-align: center;       
+        margin-bottom: 20px;
+    
+    }
+    .sobre-nos-petyParty-história p{
+        margin-left:75px;
+        margin-right:75px;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        text-align: left;
+    }
+    .sobre-nos-petyParty-história{
+        height: 625px;
+        background-image: url(../img/categori/5a327b659961b6bad88990851678756b.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;       
+    }
+
+}
+
+@media (min-width: 1025px){
+    .sobre-nos-petyParty-história h3{
+        font-size: 36px;
+        color: black;
+        line-height: 1,0;
+        font-weight: 600; 
+        text-align: center;     
+        margin-top: 110px;  
+        margin-bottom: 20px;
+    
+    }
+    .sobre-nos-petyParty-história p{
+        margin-left:95px;
+        margin-right: 65px;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .sobre-nos-petyParty-história{
+        height: 625px;
+        background-image: url(../img/categori/5a327b659961b6bad88990851678756b.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+              
+    }
+}
+@media (min-width: 1280px){
+    .sobre-nos-petyParty-história{
+        background: none;
+        background-color: rgb(255, 250, 248);
+              
+    }
+
+}
+/******* query sobre-nos inicio *****/
+
+/******* query-img-section inicio *****/
+@media (min-width: 320px) and (max-width:574px){
+    .section-missao p img{
+        width: 50px;
+        margin-top: 15px;
+    }
+    .section-visao p img{
+        width: 50px;
+        margin-top: 90px;
+    }
+    .section-valores p img{
+        width: 50px;
+        margin-top: 90px;
+    }   
+}
+
+@media (min-width: 1024px){
+
+    .section-missao p img{
+        width: 45px;
+        margin-top: 90px;
+
+    }
+    .section-visao p img{
+        width: 45px;
+        margin-top: 90px;
+    }
+    .section-valores p img{
+        width: 45px;
+        margin-top: 90px;
+    }
+
+}
+/******* query-img-section Fim *****/
+
+
+
+
+
+
+
+

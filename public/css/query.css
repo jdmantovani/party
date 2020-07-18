@@ -1,0 +1,482 @@
+
+/***************Sub_header****************/
+
+@media (max-width: 576px) {
+    .sub_header #logo {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .sub_header #logo {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .sub_header .sub_header_social_icon {
+      float: none !important;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .sub_header .sub_header_social_icon {
+      float: none !important;
+      text-align: right;
+    }
+  }
+  
+  .sub_header .sub_header_social_icon a {
+    font-size: 14px;
+    color: #555555;
+    margin-left: 60px;
+    display: inline-block;
+  }
+  
+  @media (max-width: 991px) {
+    .sub_header .sub_header_social_icon a {
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: left !important;
+    }
+  }
+
+  /* =======header======= */
+  @media  (min-width: 996px){
+    .collapse{  
+      margin-left: 5rem;
+    }
+  
+  }
+  
+  @media  (min-width: 1366px) and (min-width:1024px){
+    .collapse{  
+      margin-left: 15rem;
+    }
+  
+  }
+
+  .nav-item::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    transition: 0.3s;
+    transform: translateX(0);
+    transform: scaleX(0)
+
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    transition: 0.3s;
+    transform: translateX(0);
+    transform: scaleX(0)
+}
+
+.nav-item:hover::after {
+    width: 100%;
+    transform: scaleX(1);
+    opacity: 1
+}
+
+.nav-item:hover::before {
+    transform: scaleX(1);
+    opacity: 1
+}
+
+.nav-link {
+    padding: 15px 5px;
+    transition: 0.2s;
+}
+
+
+.nav-link {
+    padding: 15px 5px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.center{
+    text-align: center;
+    
+}
+
+.center p{
+    font-size: 10em;
+    display: INLINE-block;
+}
+.center p:hover{
+    display: none;
+}
+
+.modal{
+    margin-left:-250px;
+}
+@media screen and (max-width: 1000px) {
+  .logo{
+    margin-left: 8rem;
+  }
+    .logoresp1 {
+        display: inherit;
+    }
+    .logomin {
+        display: none;
+    }
+    #descimga {
+        background-color: khaki;
+    }
+    .dropdown-item:hover {
+        background-color: white!important;
+        color: rgba(12, 60, 96, 1)!important;
+        font-weight: bold;
+    }
+    .nav-item:hover::before{
+        width: 100px;
+    }
+    .nav-item:hover::after{
+        width: 100px;
+    }
+    
+}
+
+  /**************** banner part ****************/
+  
+  @media (max-width: 576px) {
+    .banner_part {
+      height: 260px;
+      background-position:right ;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_part {
+      height: 350px;
+  
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner_part {
+      height: 500px;
+    
+      background-position: 70% ;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .banner_part {
+      background-position: 70%;
+    }
+  }
+  
+
+
+/**************** banner text ****************/
+
+  @media (max-width: 575px) {
+    .banner_part .banner_text {
+      text-align: center;
+      margin-top: 0px;
+     }
+  
+    .banner_part .banner_text h5 {
+      font-size: 22px!important;
+      text-transform: capitalize;
+      font-weight: 400;
+      color: rgb(218, 24, 24);
+      line-height: 25px;
+      background-color: rgba(253, 235, 230,0.5);  
+   
+    }
+  
+    .banner_part .banner_text h1 {
+      font-size: 28px!important;
+      line-height: 90px;
+      text-transform: capitalize;
+      font-weight: 500;
+      margin: 23px 0 45px;
+      padding: 1px;
+      background-color: rgba(253, 235, 230,0.5);  
+  
+    }
+  
+  }
+  @media (max-width: 576px) {
+    .banner_part .banner_text {
+      text-align: center;
+      margin-top: 0px;
+    }
+  
+  
+    .banner_part .banner_text h1 {
+      font-size: 10px;
+      line-height: 90px;
+      text-transform: capitalize;
+      font-weight: 500;
+      margin: 23px 0 45px;
+    }
+  
+  }
+  @media only screen and (min-width: 577px) and (max-width: 767px){
+    .banner_part .banner_text h5 {
+      font-size: 20px!important;
+      text-transform: capitalize;
+      font-weight: 400;
+      color: rgb(218, 24, 24);
+      line-height: 25px;
+      background-color: rgba(253, 235, 230,0.5);  
+   
+    }
+  
+    .banner_part .banner_text h1 {
+      font-size: 25px!important;
+      line-height: 90px;
+      text-transform: capitalize;
+      font-weight: 500;
+      margin: 23px 0 45px;
+      padding: 1px;
+      background-color: rgba(253, 235, 230,0.5);  
+    }
+  
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 990px) {
+    .banner_part .banner_text h5 {
+      font-size: 20px!important;
+      text-transform: capitalize;
+      font-weight: 400;
+      color: rgb(218, 24, 24);
+      line-height: 25px;
+      background-color: rgba(253, 235, 230,0.5);  
+   
+    }
+    .banner_part .banner_text h1 {
+      font-size: 30px!important;
+      margin-bottom: 15px;
+      line-height: 1.4;
+      background-color: rgba(253, 235, 230,0.5);  
+  
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .banner_part .banner_text h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      line-height: 1.3;
+      margin: 15px 0 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .banner_part .banner_text h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      line-height: 1.4;
+    }
+  }
+  
+  /* ********about********* */
+@media (max-width:320px){
+    .about-img{    
+      height: 300px !important;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background-image: url("../img/about2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background-position: bottom; */
+    }
+    .about-text h3{
+      line-height: 58px;
+      margin: 25px 0;
+      font-size: 28px!important;
+      font-weight: 400;
+    }
+  
+  }
+  @media only screen and (min-width: 322px) and (max-width: 411px){
+  
+    .about{
+      margin: auto;
+      margin-top: 6rem;
+      margin-bottom: 3rem;
+    }
+    .about-img{  
+      height: 400px!important;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background-image: url("../img/about2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background-position: bottom; */
+    }
+    
+    .about-text h3{
+      line-height: 58px;
+      margin: 25px 0;
+      font-size: 30px!important;
+      font-weight: 400;
+  
+    }
+  }
+  @media only screen and (min-width: 411px) and (max-width: 768px){
+    .about-img{    
+      height: 350px!important;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background-image: url("../img/about2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background-position: bottom; */
+    }
+    .about-text h3{
+      line-height: 58px;
+      margin: 25px 0;
+      font-size: 30px!important;
+      font-weight: 400;
+  
+    }
+  
+  }
+
+/******* nossos-servicos *****/
+  @media (min-width: 768px) {
+    .site-section {
+      padding: 5em 0; 
+    } 
+  }
+  .site-section.site-section-sm {
+    padding: 4em 0; 
+  }
+
+.site-section-heading {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  font-size: 2.5rem; 
+}
+  @media (min-width: 768px) {
+    .site-section-heading {
+      font-size: 3rem; 
+    } 
+  }
+
+
+  /* ************Eventos & Reuniões ************ */
+@media (max-width: 320px){
+  .eventos-reunioes{
+    margin: auto;
+    width: 95%  ;
+
+    }
+    .post-title{
+      display: none;
+    }
+    .post-text{
+      display: none;
+    }
+
+}
+@media (min-width: 322px) and (max-width: 411px){
+  .eventos-reunioes{
+    margin: auto;
+    width: 90%  ;
+
+    }
+    .post-title{
+      display: none;
+    }
+    .post-text{
+      display: none;
+    }
+
+}
+@media (min-width: 414px) and (max-width: 768px){
+  .eventos-reunioes{
+    margin: auto;
+    width: 90%  ;
+    }
+    .post-title{
+      display: none;
+    }
+    .post-text{
+      display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .eventos-reunioes{
+    margin: auto;
+    }
+
+    b-0 {
+      bottom: 0;
+  }
+  .bg-shadow {
+      background: rgba(211, 209, 209, 0);
+      background: linear-gradient(to bottom, rgba(236, 224, 224, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
+  }
+  .top-indicator {
+      right: 0;
+      top: 1rem;
+      bottom: inherit;
+      left: inherit;
+      margin-right: 1rem;
+      
+  }
+  .overflow {
+      position: relative;
+      overflow: hidden;
+  }
+  .zoom img {
+      transition: all 0.2s linear;
+  }
+  .zoom:hover img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+}
+
+
+/* <!------ banner frete gratis-----> */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .fotoespaco_cliente3 {
+    display: none;
+    
+  }
+}
+
+
+/* <!-- Seu espaço inicio --> */
+
+@media  (min-width: 321px) and (max-width: 767px){
+.fotoespaco_cliente {
+  width: 45%;
+  margin-left: 26%;
+}
+}
+
+/* ===========F.A.Q Inicio========== */
+/* ===========F.A.Q Fim========== */
+
+

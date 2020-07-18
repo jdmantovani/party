@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SiteParty;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'SiteParty@index');
+Route::get('/', 'SiteParty@index')->name('home');
+
+Route::get('/login', 'SiteParty@login')->name('login');
+
+Route::get('/faq', 'SiteParty@faq')->name('faq');
+
+Route::get('/produto-individual', 'SiteParty@produtoIndividual')->name('produtoIndividual');
+
+Route::get('/produtos', 'SiteParty@produtos')->name('produtos');
+
+Route::get('/registro', 'SiteParty@registro')->name('registro');
+
+Route::get('/sobre-nos', 'SiteParty@sobreNos')->name('sobreNos');
+
+Route::get('/alimentos', 'SiteParty@alimentos')->name('alimentos');

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- link-FAVICON -->
-   <link rel="shortcut icon" href="img/logo_aba.png" />
+   <link rel="shortcut icon" href="{{asset('img/logo_aba.png')}}" />
    <!-- css_bootstrap -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- Animate-aos -->
@@ -14,18 +14,18 @@
    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Anton|Baloo|Bebas+Neue|Niconne|Permanent+Marker&display=swap" rel="stylesheet">
 
-   
-   
+
+
    <!-- Font Awesome JS -->
     <script src="https://kit.fontawesome.com/f7c3018ae1.js" crossorigin="anonymous"></script>
-    
+
    <!-- link css -->
-    <link rel="stylesheet" href="css/stylo.css">
-    <link rel="stylesheet" href="css/query.css">
-    <link rel="stylesheet" href="css/registro.css">
-    <link rel="stylesheet" href="css/produtos.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="{{ asset('css/stylo.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/query.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/registro.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/produtos.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/about.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/faq.css')}}">
     <title>Pety Party</title>
 </head>
 
@@ -36,7 +36,7 @@
             <div class="row align-items-center">
               <div class="col-4 col-md-4 col-xl-6">
                   <div id="logo">
-                      <a href="index.html"><img src="img/Logo_pet_party.png" style="width: 80px;"  alt="" title=""></a>
+                  <a href="{{route('home')}}"><img src="img/Logo_pet_party.png" style="width: 80px;"  alt="" title=""></a>
                   </div>
               </div>
               <div class="col-8 col-md-8 col-xl-6 ">
@@ -51,35 +51,35 @@
     <!-- Sub-header-fim -->
 
             <!-- Header -->
-        <div class=" color-nav ">         
+        <div class=" color-nav ">
             <nav class="navbar navbar-expand-lg  navbar-light d-flex align-items-end ">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
                     aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-        
+
                 <div class=" collapse navbar-collapse  " id="conteudoNavbarSuportado">
                     <ul class="navbar-nav mr-auto"style="font-family: 'Montserrat',sans-serif;">
                         <li class="nav-item active" style="margin-right: 10px;">
-                            <a class="nav-link font-nav" title="Inicio" href="index.html">Home <span class="sr-only">(página
+                        <a class="nav-link font-nav" title="Inicio" href="{{route('home')}}">Home <span class="sr-only">(página
                                     atual)</span></a>
                         </li>
                         <li class="nav-item" style="margin-right: 10px;">
-                            <a class="nav-link font-nav" title="Quem somos" href="sobre-nos.html">Sobre Nós</a>
+                        <a class="nav-link font-nav" title="Quem somos" href="{{route('sobreNos')}}">Sobre Nós</a>
                         </li>
                         <li class="nav-item" style="margin-right: 5px;">
-                            <a class="nav-link font-nav" title="FAQ" href="faq.html">F.A.Q</a>
-                        </li>                      
+                        <a class="nav-link font-nav" title="FAQ" href="{{route('faq')}}">F.A.Q</a>
+                        </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle font-nav" href="#" id="navbarDropdown" role="button"
                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Serviços
                           </a>
                           <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item font-nav" href="#">Alimentos</a>
+                          <a class="dropdown-item font-nav" href="{{route('alimentos')}}">Alimentos</a>
                               <a class="dropdown-item font-nav" href="#">Ambientes</a>
                               <a class="dropdown-item font-nav" href="#">Decorações</a>
-                              <a class="dropdown-item font-nav" href="produtos.html">Produtos</a>
+                              <a class="dropdown-item font-nav" href="{{route('produtos')}}">Produtos</a>
                               <div class="dropdown-divider"></div>
                               <a class="dropdown-item font-nav" href="#">Parceiros</a>
                           </div>
@@ -90,8 +90,8 @@
                                 Login
                             </a>
                             <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item font-nav" href="login.html">login</a>
-                              <a class="dropdown-item font-nav" href="registro.html">Cadastre-se</a>
+                              <a class="dropdown-item font-nav" href="{{route('login')}}">login</a>
+                            <a class="dropdown-item font-nav" href="{{route('registro')}}">Cadastre-se</a>
                               </div>
                         </li>
                         <li class="nav-item " style="margin-right: 5px;">
@@ -99,7 +99,7 @@
                         </li>
                     </ul>
                 </div>
-            </nav>       
+            </nav>
           </div>
             <!----- Header-fim ----->
 
@@ -118,7 +118,7 @@
     </div>
 </section>
 
-<!-- about start-->  
+<!-- about start-->
 <section class="about">
   <div class="container">
     <div class="row ">
@@ -127,7 +127,7 @@
       <div class="about-text col-md-5">
         <h3>Reuniões,Festas ou
             Eventos.</h3>
-        <p>Aqui no Pet Party,proporcionaremos todo carinho e atenção que seu pety merece 
+        <p>Aqui no Pet Party,proporcionaremos todo carinho e atenção que seu pety merece
           e que voce com certeza gostaria que ele recebe-se! </p>
         <div class="">
           <a href="#" class="btn_1 btn btn-lg ">Sobre Nós</a>
@@ -150,17 +150,17 @@
       </div>
       <div class="row">
         <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          
+
           <div class="block_service">
-            <span class=" d-block display-3 text-primary mb-3"><img src="img/spa_dog.jpg" alt="..." class="img-thumbnail " style="height: 12rem;"></span>
+            <span class=" d-block display-3 text-primary mb-3"><img src="{{asset('img/spa_dog.jpg')}}" alt="..." class="img-thumbnail " style="height: 12rem;"></span>
             <h3>Spa´s</h3>
             <p>Procedimentos de relaxamento,estéticos e emagrecimento são alguns dos serviços oferecidos pelos Spa´s. </p>
           </div>
-  
+
         </div>
         <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="100">
           <div class="block_service">
-            <span class=" d-block display-3 text-primary mb-3"><img src="img/hoteis_servicos.jpg" alt="..." class="img-thumbnail" style="height: 12rem;"></span>
+            <span class=" d-block display-3 text-primary mb-3"><img src="{{asset('img/hoteis_servicos.jpg')}}" alt="..." class="img-thumbnail" style="height: 12rem;"></span>
             <h3>Hotéis</h3>
             <p>Caso necessite de hospedagem serviços de hotéis com estrutura completa para atender seu pet. você encontra aqui! </p>
           </div>
@@ -173,13 +173,13 @@
           </div>
         </div>
         <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="200">
-          
+
           <div class="block_service">
-            <span class=" d-block display-3 text-primary mb-3"><img src="img/petdrivers_servicos.jpg" alt="..." class="img-thumbnail" style="height: 12rem;"></span>
+            <span class=" d-block display-3 text-primary mb-3"><img src="{{asset('img/petdrivers_servicos.jpg')}}" alt="..." class="img-thumbnail" style="height: 12rem;"></span>
             <h3>Pet Drivers</h3>
             <p>Motoristas com automoveis preparados estão prontos a qualquer hora e lugar. </p>
           </div>
-  
+
         </div>
         <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="100">
           <div class="block_service">
@@ -190,7 +190,7 @@
         </div>
         <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="200">
           <div class="block_service">
-            <span class=" d-block display-3 text-primary mb-3"><img src="img/petshops_servicos.jpg" alt="..." class="img-thumbnail" style="height: 12rem;"></span>
+            <span class=" d-block display-3 text-primary mb-3"><img src="{{asset('img/petshops_servicos.jpg')}}" alt="..." class="img-thumbnail" style="height: 12rem;"></span>
             <h3>Pet Shops</h3>
             <p>Precisando de algum produto ou marca especifica,de uma olhada em alguns dos pet shop's parceiros. </p>
           </di>
@@ -220,21 +220,21 @@
              <!-- ------carousel-Eventos & Reunioes Esquerdo----- -->
               <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1 " id="carousel-eventos-Esq">
                   <div id="featured" class="carousel slide carousel" data-ride="carousel">
-                
+
                       <ol class="carousel-indicators top-indicator">
                           <li data-target="#featured" data-slide-to="0" class="active"></li>
                           <li data-target="#featured" data-slide-to="1"></li>
                           <li data-target="#featured" data-slide-to="2"></li>
                           <li data-target="#featured" data-slide-to="3"></li>
                       </ol>
-                                         
-                      <div class="carousel-inner ">                        
+
+                      <div class="carousel-inner ">
                           <div class="carousel-item active">
                               <div class="card border-0 rounded-0 text-light overflow zoom">
-                                  <div class="position-relative">                                  
+                                  <div class="position-relative">
                                       <div class="ratio_left-cover-1 image-wrapper">
                                           <a href="#">
-                                              <img class="img-fluid w-100" src="img/img_carousel.jpg" alt="Bootstrap news template">
+                                              <img class="img-fluid w-100" src="{{asset('img/img_carousel.jpg')}}" alt="Bootstrap news template">
                                           </a>
                                       </div>
                                       <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
@@ -247,8 +247,8 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>                          
-                          
+                          </div>
+
                           <div class="carousel-item">
                               <div class="card border-0 rounded-0 text-light overflow zoom">
                                   <div class="position-relative">
@@ -269,14 +269,14 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>    
+                          </div>
                           <div class="carousel-item">
                               <div class="card border-0 rounded-0 text-light overflow zoom">
                                   <div class="position-relative">
                                       <div class="ratio_left-cover-1 image-wrapper">
                                           <a href="#">
                                               <img class="img-fluid w-100"
-                                                   src="img/img_carousel_lateral4.jpg"
+                                                   src="{{asset('img/img_carousel_lateral4.jpg')}}"
                                                    alt="Bootstrap portal template">
                                           </a>
                                       </div>
@@ -292,7 +292,7 @@
                               </div>
                           </div>
                       </div>
-                  </div>                  
+                  </div>
                   <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="sr-only">Previous</span>
@@ -313,7 +313,7 @@
                                   <div class="ratio_right-cover-2 image-wrapper">
                                       <a href="#">
                                           <img class="img-fluid"
-                                               src="img/carousel_eventos.jpg"
+                                               src="{{asset('img/carousel_eventos.jpg')}}"
                                                alt="simple blog template bootstrap">
                                       </a>
                                   </div>
@@ -324,7 +324,7 @@
                                   </div>
                               </div>
                           </div>
-                      </div>           
+                      </div>
 
                       <div class="col-6 pb-1 pl-1 pt-0">
                           <div class="card border-0 rounded-0 text-white overflow zoom">
@@ -332,7 +332,7 @@
                                   <div class="ratio_right-cover-2 image-wrapper">
                                     <a href="">
                                       <img class="img-fluid"
-                                           src="img/carousel_eventos5.jpg"
+                                           src="{{asset('img/carousel_eventos5.jpg')}}"
                                            alt="bootstrap templates for blog">
                                     </a>
                                   </div>
@@ -342,38 +342,38 @@
                                   </div>
                               </div>
                           </div>
-                      </div>                     
+                      </div>
                       <div class="col-6 pb-1 pr-1 pt-1">
                           <div class="card border-0 rounded-0 text-white overflow zoom">
                               <div class="position-relative">
                                   <div class="ratio_right-cover-2 image-wrapper">
                                       <a href="#">
                                           <img class="img-fluid"
-                                               src="img/carousel_eventos2.jpg"
+                                               src="{{asset('img/carousel_eventos2.jpg')}}"
                                                alt="bootstrap blog wordpress theme">
                                       </a>
                                   </div>
                                   <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                      <a class="p-1 badge badge-primary rounded-0" href="#">Alimento</a>                                  
+                                      <a class="p-1 badge badge-primary rounded-0" href="#">Alimento</a>
                                           <h2 class="h5 text-white my-1 post-text">Alimentos preparados especialmente para seu parceiro(a).</h2>
                                       </a>
                                   </div>
                               </div>
                           </div>
                       </div>
-                      
+
                       <div class="col-6 pb-1 pl-1 pt-1">
                           <div class="card border-0 rounded-0 text-white overflow zoom">
                               <div class="position-relative">
                                   <div class="ratio_right-cover-2 image-wrapper">
                                       <a href="#">
                                           <img class="img-fluid"
-                                               src="img/carousel_eventos3.jpg"
+                                               src="{{asset('img/carousel_eventos3.jpg')}}"
                                                alt="blog website templates bootstrap">
                                       </a>
                                   </div>
                                   <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                      <a class="p-1 badge badge-primary rounded-0" href="#">Alimento</a>               
+                                      <a class="p-1 badge badge-primary rounded-0" href="#">Alimento</a>
                                           <h2 class="h5 text-white my-1 post-text">Doces e salgados para seus eventos</h2>
                                       </a>
                                   </div>
@@ -385,18 +385,18 @@
               <!-- ------Fim-carousel-Eventos & Reunioes Direito ----- -->
           </section>
       </div>
-  </div>  
+  </div>
  <!-- ------Fim-carousel-Eventos & Reunioes- ----- -->
 
 
 
 <!------- Carousel-produtos------->
-  
+
 <!------- Carousel-produtos Titulo------->
 <div class="container titulo-carousel-produtos">
   <div class="row mb-2">
       <div class="col-12 text-center pt-3">
-        <a href="produtos.html">
+        <a href="{{route('produtos')}}">
           <h1>Produtos</h1>
         </a>
           <h4>Procuranodo algo especial ? De uma olhada nos nossos produtos! </h4>
@@ -415,32 +415,32 @@
               </div>
            </div>
            <div class="arrival-product">
-              <div id="Carousel" class="carousel slide" data-ride="carousel">                         
+              <div id="Carousel" class="carousel slide" data-ride="carousel">
                  <div class="carousel-inner carousel-inner-produtos">
                     <div class="carousel-item active">
                        <div class="arrival-item">
                           <Ul>
-                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos.jpg" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos2.jpg" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos3.jpg" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos4.jpg" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos5.jpg" alt="Image" style="max-width:100%;"></a></li>
-                          </Ul>                                    
-                       </div>         
-                    </div> 
+                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos2.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos3.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos4.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a  class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos5.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                          </Ul>
+                       </div>
+                    </div>
                     <div class="carousel-item">
                        <div class="arrival-item">
                           <Ul>
-                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos6.jpg" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos7.jpg" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos8.jpg" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos9.jpg" alt="Image" style="max-width:100%;"></a></li>
-                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="img/carousel_produtos10.jpg" alt="Image" style="max-width:100%;"></a></li>
-                          </Ul>                                    
-                       </div>                    
-                    </div>             
-                 </div>    
-              </div>            
+                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos6.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos7.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos8.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos9.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                             <li><a class="overflow-produtos zoom-produtos" href="#"><img src="{{asset('img/carousel_produtos10.jpg')}}" alt="Image" style="max-width:100%;"></a></li>
+                          </Ul>
+                       </div>
+                    </div>
+                 </div>
+              </div>
            </div>
         </div>
 	</div>
@@ -493,7 +493,7 @@
  <!-- Seu espaço inicio -->
  <div class="seu-espaco">
    <section class="container-fluid latest-blog enquadramento">
-  
+
    <!-- Seu espaço Titulo -->
     <div class="container">
         <div class="row">
@@ -503,7 +503,7 @@
                 </div>
             </div>
         </div>
-  
+
   <!-- Seu espaço comentarios -->
         <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -588,12 +588,12 @@
   <footer class="footer-container">
     <div class="container footer-conteudo text-md-left">
       <div class="row">
-        <div class="footer-img col-md-4 mx-auto">     
+        <div class="footer-img col-md-4 mx-auto">
             <div class="logo_footer">
             <a href="index.html"><img src="img/Logo_pet_party.png" style="width: 100px"  alt="" title=""></a>
             </div>
-        </div>    
-        <hr class="clearfix w-100 d-md-none">  
+        </div>
+        <hr class="clearfix w-100 d-md-none">
         <div class="footer-conteudo-servicos col-md-2 mx-auto">
           <h5>Serviços</h5>
           <ul class="list-unstyled">
@@ -610,7 +610,7 @@
         </div>
         <hr class="clearfix w-100 d-md-none">
         <div class="footer-conteudo-ajuda col-md-2 mx-auto">
-          <h5 >Ajuda</h5>  
+          <h5 >Ajuda</h5>
           <ul class="list-unstyled">
             <li>
               <a href="#!">F.A.Q</a>
@@ -621,10 +621,10 @@
             <li>
               <a href="#!">Troca</a>
             </li>
-          </ul> 
+          </ul>
         </div>
         <hr class="clearfix w-100 d-md-none">
-        <div class="footer-conteudo-ajuda col-md-2 mx-auto">  
+        <div class="footer-conteudo-ajuda col-md-2 mx-auto">
           <h5>Ajuda</h5>
           <ul class="list-unstyled">
             <li>
@@ -664,8 +664,8 @@
         </a>
       </li>
     </ul>
-    <div class="footer-copyright text-center ">© 2020 Copyright:Pety Party| Pety Party S.A. 
-      CNPJ 12.345.678./0001-00 Rua do pet-Vila 
+    <div class="footer-copyright text-center ">© 2020 Copyright:Pety Party| Pety Party S.A.
+      CNPJ 12.345.678./0001-00 Rua do pet-Vila
       dos Animais,SP | CEP 00000-000
   </div>
 </div>
@@ -673,7 +673,7 @@
 
 
 
-   
+
           <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
           <script>
             AOS.init();
@@ -684,6 +684,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
         <!-- Bootstrap JS -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-      
+
 </body>
 </html>
