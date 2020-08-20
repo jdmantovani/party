@@ -123,7 +123,7 @@
   <div class="mb-4 ">
     <p class="text-left">
         1. Como realizo uma compra? <br>
-        Vá para página <a href="produto_individual.html">Produtos</a>,  selecione o seu item e coloque no carrinho de compras.
+    Vá para página <a href="{{route('produtos')}}">Produtos</a>,  selecione o seu item e coloque no carrinho de compras.
     </p>
 
     <p class="text-left">
@@ -153,7 +153,7 @@
 
       <p class="text-left">
         7. É possível retirar o produto em uma loja física? <br>
-          A PetParty trabalha incansavelmente para melhor atender seus clientes, por isso estamos analisando a possibilidade deste modelo de entrega :) e assim que estiver disponível iremos colocar um aviso na nossa <a href="index.html">Home</a>.
+      A PetParty trabalha incansavelmente para melhor atender seus clientes, por isso estamos analisando a possibilidade deste modelo de entrega :) e assim que estiver disponível iremos colocar um aviso na nossa <a href="{{route('home')}}">Home</a>.
       </p>
 
       <p class="text-left">

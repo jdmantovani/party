@@ -29,3 +29,7 @@ Route::get('/registro', 'SiteParty@registro')->name('registro');
 Route::get('/sobre-nos', 'SiteParty@sobreNos')->name('sobreNos');
 
 Route::get('/alimentos', 'SiteParty@alimentos')->name('alimentos');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
