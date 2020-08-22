@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProdutosTable extends Migration
+class CriaTabelaPivotProdutoTag extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,10 @@ class CreateProdutosTable extends Migration
      */
     public function up()
     {
-        Schema::create('produtos', function (Blueprint $table) {
-            $table->id();
+        Schema::create('produto_tag', function (Blueprint $table) {
+            $table->foreignId('produto_id')->constrained();
+            $table->foreignId('tag_id')->constrained();
             $table->timestamps();
-            $table->string('nome', 100);
-            $table->string('descricao', 300);
-            $table->decimal('valor', 8, 2);
-            
         });
     }
 
@@ -30,6 +27,6 @@ class CreateProdutosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('produtos');
+        Schema::dropIfExists('produto_tag');
     }
 }
