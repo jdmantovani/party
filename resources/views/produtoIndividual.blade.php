@@ -91,7 +91,7 @@
                                 Login
                             </a>
                             <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item font-nav" href="{{route('login')}}">login</a>
+                              <a class="dropdown-item font-nav" href="{{route('login')}}">Login</a>
                               <a class="dropdown-item font-nav" href="registro.html">Cadastre-se</a>
                               </div>
                         </li>

@@ -76,7 +76,7 @@
                           <a class="dropdown-item font-nav" href="{{route('alimentos')}}">Alimentos</a>
                           <a class="dropdown-item font-nav" href="#">Ambientes</a>
                           <a class="dropdown-item font-nav" href="#">Decorações</a>
-                      <a class="dropdown-item font-nav" href="{{route('produtos')}}">Produtos</a>
+                          <a class="dropdown-item font-nav" href="{{route('produtos')}}">Produtos</a>
                           <div class="dropdown-divider"></div>
                           <a class="dropdown-item font-nav" href="#">Parceiros</a>
                       </div>
@@ -87,7 +87,7 @@
                             Login
                         </a>
                         <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item font-nav" href="{{route('login')}}">login</a>
+                        <a class="dropdown-item font-nav" href="{{route('login')}}">Login</a>
                         <a class="dropdown-item font-nav" href="{{route('registro')}}">Cadastre-se</a>
                           </div>
                     </li>

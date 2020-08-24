@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/sobre-nos.css">
 
-    <title>Pety Party</title>
+    <title>Pet Party</title>
 </head>
 
     <body>
@@ -92,7 +92,7 @@
                                 Login
                             </a>
                             <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item font-nav" href="{{route('login')}}">login</a>
+                            <a class="dropdown-item font-nav" href="{{route('login')}}">Login</a>
                             <a class="dropdown-item font-nav" href="{{route('registro')}}">Cadastre-se</a>
                               </div>
                         </li>
@@ -118,7 +118,7 @@
 
                             <!-- /******* sobre-nos-patyParty  Inicio *****/ -->
                             <div class="sobre-nos-patyParty col-sm-6 " data-aos="fade-right">
-                              <h3 >Pety Party</h3>
+                              <h3 >Pet Party</h3>
                               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
                               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
                           </div>
@@ -191,7 +191,7 @@
 
           </ul>
           <p >
-            © 2020 Copyright:Pety Party| Pety Party S.A.
+            © 2020 Copyright:Pet Party| Pet Party S.A.
             CNPJ 12.345.678./0001-00 Rua do pet-Vila
             dos Animais,SP | CEP 00000-000
           </p>

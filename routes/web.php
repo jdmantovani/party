@@ -32,4 +32,4 @@ Route::get('/alimentos', 'SiteParty@alimentos')->name('alimentos');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'SiteParty@index')->name('home');

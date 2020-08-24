@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="{{ asset('css/produtos.css')}}">
     <link rel="stylesheet" href="{{ asset('css/about.css')}}">
     <link rel="stylesheet" href="{{ asset('css/faq.css')}}">
-    <title>Pety Party</title>
+    <title>Pet Party</title>
 </head>
 
     <body class="home" >
@@ -90,7 +90,7 @@
                                 Login
                             </a>
                             <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item font-nav" href="{{route('login')}}">login</a>
+                              <a class="dropdown-item font-nav" href="{{route('login')}}">Login</a>
                             <a class="dropdown-item font-nav" href="{{route('registro')}}">Cadastre-se</a>
                               </div>
                         </li>
@@ -109,8 +109,8 @@
         <div class="row align-content-center">
             <div class="col-lg-7 col-xl-6">
                 <div class="banner_text">
-                    <h5>Bem Vindo ao Pety Party</h5>
-                    <h1>Compartilhe com seu pety
+                    <h5>Bem Vindo ao Pet Party</h5>
+                    <h1>Compartilhe com seu pet
                         os melhores momentos</h1>
                 </div>
             </div>
@@ -127,7 +127,7 @@
       <div class="about-text col-md-5">
         <h3>Reuniões,Festas ou
             Eventos.</h3>
-        <p>Aqui no Pet Party,proporcionaremos todo carinho e atenção que seu pety merece
+        <p>Aqui no Pet Party,proporcionaremos todo carinho e atenção que seu pet merece
           e que voce com certeza gostaria que ele recebe-se! </p>
         <div class="">
           <a href="#" class="btn_1 btn btn-lg ">Sobre Nós</a>
@@ -664,7 +664,7 @@
         </a>
       </li>
     </ul>
-    <div class="footer-copyright text-center ">© 2020 Copyright:Pety Party| Pety Party S.A.
+    <div class="footer-copyright text-center ">© 2020 Copyright:Pet Party| Pet Party S.A.
       CNPJ 12.345.678./0001-00 Rua do pet-Vila
       dos Animais,SP | CEP 00000-000
   </div>
