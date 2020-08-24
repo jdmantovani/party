@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/faq.css">
-    <title>Pety Party</title>
+    <title>Pet Party</title>
 </head>
 
     <body class="home" >
@@ -36,7 +36,7 @@
             <div class="row align-items-center">
               <div class="col-4 col-md-4 col-xl-6">
                   <div id="logo">
-                      <a href="index.html"><img src="img/Logo_pet_party.png" style="width: 80px;"  alt="" title=""></a>
+                      <a href="{{route('home')}}"><img src="img/Logo_pet_party.png" style="width: 80px;"  alt="" title=""></a>
                   </div>
               </div>
               <div class="col-8 col-md-8 col-xl-6 ">
@@ -79,7 +79,7 @@
                               <a class="dropdown-item font-nav" href="{{route('alimentos')}}">Alimentos</a>
                               <a class="dropdown-item font-nav" href="#">Ambientes</a>
                               <a class="dropdown-item font-nav" href="#">Decorações</a>
-                              <a class="dropdown-item font-nav" href="produtos.html">Produtos</a>
+                              <a class="dropdown-item font-nav" href="{{route('produtos')}}">Produtos</a>
                               <div class="dropdown-divider"></div>
                               <a class="dropdown-item font-nav" href="#">Parceiros</a>
                           </div>
@@ -109,7 +109,7 @@
           <div class="row align-content-center">
               <div class="col-lg-7 col-xl-6">
                   <div class="banner_faq_text">
-                      <h5>Bem Vindo ao Pety Party</h5>
+                      <h5>Bem Vindo ao Pet Party</h5>
                       <h1>Olá , Aqui esclareceremos algumas das duvidas mais frequentes!</h1>
                   </div>
               </div>
@@ -250,7 +250,7 @@
         </a>
       </li>
     </ul>
-    <div class="footer-copyright text-center ">© 2020 Copyright:Pety Party| Pety Party S.A.
+    <div class="footer-copyright text-center ">© 2020 Copyright:Pet Party| Pet Party S.A.
       CNPJ 12.345.678./0001-00 Rua do pet-Vila
       dos Animais,SP | CEP 00000-000
   </div>
