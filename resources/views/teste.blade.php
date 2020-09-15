@@ -36,7 +36,7 @@
    <link rel="stylesheet" href="css/produtos.css">
    <link rel="stylesheet" href="css/about.css">
    <link rel="stylesheet" href="css/faq.css">
-    <title>Pety Party</title>
+    <title>Pet Party</title>
 </head>
 
     <body>
@@ -262,7 +262,7 @@
 
 
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2020 Copyright:Pety Party| Pety Party S.A.
+<div class="footer-copyright text-center py-3">© 2020 Copyright:Pet Party| Pet Party S.A.
 CNPJ 12.345.678./0001-00 Rua do pet-Vila
 dos Animais,SP | CEP 00000-000
 </div>

@@ -27,7 +27,7 @@
    <link rel="stylesheet" href="css/produtos.css">
    <link rel="stylesheet" href="css/about.css">
    <link rel="stylesheet" href="css/faq.css">
-    <title>Pety Party</title>
+    <title>Pet Party</title>
 </head>
 
     <body>
