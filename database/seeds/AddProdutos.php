@@ -16,8 +16,7 @@ class AddProdutos extends Seeder
             'nome' => 'Caixa de Transporte para cachorros',
             'descricao' => 'Caixa de Transporte para cachorros',
             'valor' => 80,
-            
-
+            'url' => 'img/categori/produtos-cachorro/produto-cachorros.jpg'
             ]);
         Produtos::create([
             'nome' => 'Jogo de Colchões',

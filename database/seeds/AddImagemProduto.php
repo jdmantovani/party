@@ -13,16 +13,16 @@ class AddImagemProduto extends Seeder
     public function run()
 
     {
-        //
+    
         ImagemProduto::create([
             'caminhoDaImagem' => 'img/categori/produtos-cachorro/produto-cachorros.jpg',
             'produto_id' => 1
             ]);
 
-            ImagemProduto::create([
+        ImagemProduto::create([
                 'caminhoDaImagem' => 'img/categori/produtos-cachorro/produto-cachorros2.jpg',
                 'produto_id' => 2
-                ]);
+            ]);
     }
 
 }

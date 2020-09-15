@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">oi{{ __('Login')}}</div>
+                <div class="card-header">Faça seu login{{ __('')}}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
