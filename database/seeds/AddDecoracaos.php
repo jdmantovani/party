@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Decoracao;
 
-class AddDecoracao extends Seeder
+class AddDecoracaos extends Seeder
 {
     /**
      * Run the database seeds.

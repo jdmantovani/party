@@ -27,7 +27,7 @@
    <link rel="stylesheet" href="css/produtos.css">
    <link rel="stylesheet" href="css/about.css">
    <link rel="stylesheet" href="css/faq.css">
-    <title>Pety Party</title>
+    <title>Pet Party</title>
 </head>
 
     <body>
@@ -139,157 +139,39 @@
                         </div>
                 </div>
                 <!-- Nav Card -->
-                <div class="tab-content" >
+                <div class="tab-content">
                     <!-- card one -->
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                <div class="single-product mb-60">
-                                    <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros.jpg" alt="">
-                                        <div class="produto-lancamento">
-                                            <span>Novo</span>
+                            @foreach ($produtos as $p)
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="single-product mb-60">
+                                        <div class="produto-img">
+
+                                        <img src="{{$p->url}}" alt="">
+                                            <div class="produto-lancamento">
+                                                <span>Novo</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="product-caption">
-                                        <div class="product-ratting">
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                        </div>
-                                        <h4><a href="#">Caixa de Transporte para cachorros</a></h4>
-                                        <div class="valor">
-                                            <ul>
-                                                <li>R$40.00</li>
-                                                <li class="desconto">R$80.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                <div class="single-product mb-60">
-                                    <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros2.jpg" alt="">
-                                    </div>
-                                    <div class="product-caption">
-                                        <div class="product-ratting">
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                        </div>
-                                        <h4><a href="#">Jogo de Colchões</a></h4>
-                                        <div class="valor">
-                                            <ul>
-                                                <li>R$40.00</li>
-                                                <li class="desconto">R$80.00</li>
-                                            </ul>
+                                        <div class="product-caption">
+                                            <div class="product-ratting">
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star low-star"></i>
+                                                <i class="far fa-star low-star"></i>
+                                            </div>
+                                            <h4><a href="#">{{$p->nome}}</a></h4>
+                                            <div class="valor">
+                                                <ul>
+                                                <li>{{$p->valor}}</li>
+                                                    <li class="desconto">{{$p->desconto}}</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                <div class="single-product mb-60">
-                                    <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros3.jpg" alt="">
-                                        <div class="produto-lancamento">
-                                            <span>Novo</span>
-                                        </div>
-                                    </div>
-                                    <div class="product-caption">
-                                        <div class="product-ratting">
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                        </div>
-                                        <h4><a href="#">Capa para Chuva</a></h4>
-                                        <div class="valor">
-                                            <ul>
-                                                <li>R$40.00</li>
-                                                <li class="desconto">R$80.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                <div class="single-product mb-60">
-                                    <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos.jpg" alt="">
-                                    </div>
-                                    <div class="product-caption">
-                                        <div class="product-ratting">
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                        </div>
-                                        <h4><a href="#">Arranhador</a></h4>
-                                        <div class="valor">
-                                            <ul>
-                                                <li>R$40.00</li>
-                                                <li class="desconto">R$80.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                <div class="single-product mb-60">
-                                    <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos2.jpg" alt="">
-                                    </div>
-                                    <div class="product-caption">
-                                        <div class="product-ratting">
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                        </div>
-                                        <h4><a href="#">Jogo de colchões para Gatos</a></h4>
-                                        <div class="valor">
-                                            <ul>
-                                                <li>R$40.00</li>
-                                                <li class="desconto">R$80.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                <div class="single-product mb-60">
-                                    <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos3.jpg" alt="">
-                                        <div class="produto-lancamento">
-                                            <span>Novo</span>
-                                        </div>
-                                    </div>
-                                    <div class="product-caption">
-                                        <div class="product-ratting">
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                            <i class="far fa-star low-star"></i>
-                                        </div>
-                                        <h4><a href="#">Caixa de Transporte para Gatos</a></h4>
-                                        <div class="valor">
-                                            <ul>
-                                                <li>R$40.00</li>
-                                                <li class="desconto">R$80.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                     <!-- Card two -->
@@ -833,7 +715,7 @@
 
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:Pety Party| Pety Party S.A.
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:Pet Party| Pet Party S.A.
       CNPJ 12.345.678./0001-00 Rua do pet-Vila
       dos Animais,SP | CEP 00000-000
   </div>

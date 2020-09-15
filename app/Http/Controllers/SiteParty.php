@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Produtos;
 use Illuminate\Http\Request;
 
 class SiteParty extends Controller
@@ -28,7 +29,9 @@ class SiteParty extends Controller
 
     public function produtos()
     {
-        return view ('produtos');
+        $produtos = Produtos::all();
+        return view ('produtos')->with('produtos', $produtos);
+
     }
 
     public function registro()

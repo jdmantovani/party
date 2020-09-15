@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/teste', 'ProdutosController@exibirProduto');
+Route::post('/adminProdutos/create', 'ProdutosController@store');
+Route::get('/adminProdutos/create', 'ProdutosController@create');
+
+
+
 
 Route::get('/', 'SiteParty@index')->name('home');
 

@@ -10,7 +10,8 @@ class Produtos extends Model
     protected $fillable = [ //faz o laravel aceitar popular em massa
         'nome', 
         'descricao', 
-        'valor'
+        'valor',
+        'url'
     ];
 
     //relaciona produto com tag

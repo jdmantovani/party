@@ -108,13 +108,13 @@
                <div class="sobre-nos">
                     <div>
                         <div class="row no-gutters ">
-                          <!-- /******* sobre-nos-petyParty-história  Inicio *****/  -->
-                            <div class="sobre-nos-petyParty-história col-sm-6" data-aos="fade-left">
+                          <!-- /******* sobre-nos-PetParty-história  Inicio *****/  -->
+                            <div class="sobre-nos-PetParty-história col-sm-6" data-aos="fade-left">
                                 <h3>História</h3>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
                             </div>
-                            <!-- /******* sobre-nos-petyParty-história  Fim *****/ -->
+                            <!-- /******* sobre-nos-PetParty-história  Fim *****/ -->
 
                             <!-- /******* sobre-nos-patyParty  Inicio *****/ -->
                             <div class="sobre-nos-patyParty col-sm-6 " data-aos="fade-right">
