@@ -4,12 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Tag;
+use Illuminate\Support\Facades\File;
 
 class Produtos extends Model
 {
     protected $fillable = [ //faz o laravel aceitar popular em massa
-        'nome', 
-        'descricao', 
+        'nome',
+        'descricao',
         'valor',
         'url'
     ];
@@ -19,4 +20,6 @@ class Produtos extends Model
     {
         return $this->belongsToMany('App\Tag');
     }
+
+
 }

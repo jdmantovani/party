@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
         $this->call(AddTags::class);//primeiro vai executar essa classe
         $this->call(AddProdutos::class);
         $this->call(AddAlimentos::class);
-        $this->call(AddDecoracaos::class);
+        $this->call(AddDecoracao::class);
+        $this->call(AddImagemProduto::class);
     }
 }
