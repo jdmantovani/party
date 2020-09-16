@@ -148,7 +148,7 @@
                                     <div class="single-product mb-60">
                                         <div class="produto-img">
 
-                                        <img src="{{asset($p->url)}}" alt="">
+                                        <img src="{{url($p->url)}}" alt="">
                                             <div class="produto-lancamento">
                                                 <span>Novo</span>
                                             </div>

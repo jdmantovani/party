@@ -16,9 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/teste', 'ProdutosController@exibirProduto');
 Route::post('/adminProdutos/create', 'ProdutosController@store');
 Route::get('/adminProdutos/create', 'ProdutosController@create');
-
-
-
+Route::get('/adminProdutos', 'ProdutosController@index');
+Route::get('/adminProdutos/edit/{id}', 'ProdutosController@edit');
+Route::put('/adminProdutos/edit/{id}', 'ProdutosController@update');
+Route::delete('/adminProdutos/{id}', 'ProdutosController@destroy');
 
 Route::get('/', 'SiteParty@index')->name('home');
 
@@ -29,6 +30,8 @@ Route::get('/faq', 'SiteParty@faq')->name('faq');
 Route::get('/produto-individual', 'SiteParty@produtoIndividual')->name('produtoIndividual');
 
 Route::get('/produtos', 'SiteParty@produtos')->name('produtos');
+
+Route::get('/produtos/{id}', 'SiteParty@produtoIndividual')->name('produtoIndividual');
 
 Route::get('/registro', 'SiteParty@registro')->name('registro');
 
