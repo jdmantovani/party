@@ -7,7 +7,7 @@ use App\Produtos;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Produto;
-
+use Gate;
 
 class ProdutosController extends Controller
 {
@@ -25,31 +25,45 @@ class ProdutosController extends Controller
 
     public function create()
     {
+        if(Gate::denies("admin")){
+            return redirect()->route("home");
+        }
         return view('adminProdutos.create');
-
 
     }
 
     public function index()
     {
+        if(Gate::denies("admin")){
+            return redirect()->route("home");
+        }
         $produtos = Produtos::all();
         return view('adminProdutos.produtos', compact('produtos'));
     }
 
     public function edit($id)
     {
+        if(Gate::denies("admin")){
+            return redirect()->route("home");
+        }
         $produto = Produtos::find($id);
         return view('adminProdutos.edit', compact('produto'));
     }
     
     public function destroy($id)
     {
+        if(Gate::denies("admin")){
+            return redirect()->route("home");
+        }
         Produtos::where("id", $id)->delete();
         return back();
     }
 
     public function update($id,Request $request)
     {
+        if(Gate::denies("admin")){
+            return redirect()->route("home");
+        }
         $produto = Produtos::find($id);
 
         $produto->nome = $request->input('nome');
@@ -79,7 +93,9 @@ class ProdutosController extends Controller
 
     public function store(Request $request)
     {
-
+        if(Gate::denies("admin")){
+            return redirect()->route("home");
+        }
         $produto = new Produtos;
 
         $produto->nome = $request->input('nome');

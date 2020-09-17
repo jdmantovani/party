@@ -17,7 +17,7 @@
  
     <!-- Font Awesome JS -->
      <script src="https://kit.fontawesome.com/f7c3018ae1.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Catálogo de Produtos</title>
 </head>
 <body>
     <table class="table table-striped">

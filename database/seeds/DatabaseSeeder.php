@@ -16,5 +16,8 @@ class DatabaseSeeder extends Seeder
         $this->call(AddAlimentos::class);
         $this->call(AddDecoracao::class);
         $this->call(AddImagemProduto::class);
+        $this->call(AddRoles::class);
+        $this->call(AddUser::class);
+        $this->call(AddRoleUsers::class);
     }
 }

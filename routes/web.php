@@ -21,7 +21,7 @@ Route::get('/adminProdutos/edit/{id}', 'ProdutosController@edit');
 Route::put('/adminProdutos/edit/{id}', 'ProdutosController@update');
 Route::delete('/adminProdutos/{id}', 'ProdutosController@destroy');
 
-Route::get('/', 'SiteParty@index')->name('home');
+//Route::get('/', 'SiteParty@index')->name('home');
 
 Route::get('/login', 'SiteParty@login')->name('login');
 
