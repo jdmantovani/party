@@ -22,9 +22,10 @@ class SiteParty extends Controller
         return view ('faq');
     }
 
-    public function produtoIndividual()
+    public function produtoIndividual($id)
     {
-        return view ('produtoIndividual');
+        $produto = Produtos::find($id);
+        return view ('produtoIndividual')->with('produto', $produto);
     }
 
     public function produtos()

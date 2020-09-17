@@ -66,7 +66,7 @@
                                     atual)</span></a>
                         </li>
                         <li class="nav-item" style="margin-right: 10px;">
-                            <a class="nav-link font-nav" title="Quem somos" href="sobre-nos.html">Sobre Nós</a>
+                            <a class="nav-link font-nav" title="Quem somos" href={{route('sobreNos')}}>Sobre Nós</a>
                         </li>
                         <li class="nav-item" style="margin-right: 5px;">
                         <a class="nav-link font-nav" title="FAQ" href="{{route('faq')}}">F.A.Q</a>
@@ -148,7 +148,7 @@
                                     <div class="single-product mb-60">
                                         <div class="produto-img">
 
-                                        <img src="{{url($p->url)}}" alt="">
+                                        <img src="{{url("$p->url")}}" alt="">
                                             <div class="produto-lancamento">
                                                 <span>Novo</span>
                                             </div>
@@ -161,7 +161,7 @@
                                                 <i class="far fa-star low-star"></i>
                                                 <i class="far fa-star low-star"></i>
                                             </div>
-                                            <h4><a href="#">{{$p->nome}}</a></h4>
+                                            <h4><a href="/produto-individual/{{$p->id}}">{{$p->nome}}</a></h4>
                                             <div class="valor">
                                                 <ul>
                                                 <li>{{$p->valor}}</li>

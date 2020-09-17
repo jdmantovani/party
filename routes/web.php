@@ -27,7 +27,7 @@ Route::get('/login', 'SiteParty@login')->name('login');
 
 Route::get('/faq', 'SiteParty@faq')->name('faq');
 
-Route::get('/produto-individual', 'SiteParty@produtoIndividual')->name('produtoIndividual');
+Route::get('/produto-individual/{id}', 'SiteParty@produtoIndividual')->name('produtoIndividual');
 
 Route::get('/produtos', 'SiteParty@produtos')->name('produtos');
 
