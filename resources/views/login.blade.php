@@ -27,7 +27,7 @@
       <link rel="stylesheet" href="css/produtos.css">
       <link rel="stylesheet" href="css/about.css">
       <link rel="stylesheet" href="css/faq.css">
-      <title>Pety Party</title>
+      <title>pet Party</title>
   </head>
    <body >
 
@@ -130,7 +130,7 @@
 
   <!-- inscrevase-subscribe inicio -->
   <div class="inscrevase lf-padding">
-  <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categori/banner_pattern.png">
+  <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categoria/banner_pattern.png">
    <div class="container ">
       <div class="row d-flex align-items-center">
         <div class="col-xl-5 col-lg-5 col-md-6 offset-xl-1 offset-lg-1">

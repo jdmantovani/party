@@ -162,7 +162,7 @@ p {
 
 .banner_part .banner_text h5 {
   font-size: 28px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-weight: 400;
   color: #FF5B5B;
   line-height: 25px;
@@ -171,7 +171,7 @@ p {
 .banner_part .banner_text h1 {
   font-size: 40px;
   line-height: 90px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-weight: 400;
   margin: 23px 0 45px;
 }

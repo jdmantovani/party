@@ -108,13 +108,13 @@
                <div class="sobre-nos">
                     <div>
                         <div class="row no-gutters ">
-                          <!-- /******* sobre-nos-petyParty-história  Inicio *****/  -->
-                            <div class="sobre-nos-petyParty-história col-sm-6" data-aos="fade-left">
+                          <!-- /******* sobre-nos-petParty-história  Inicio *****/  -->
+                            <div class="sobre-nos-petParty-história col-sm-6" data-aos="fade-left">
                                 <h3>História</h3>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
                             </div>
-                            <!-- /******* sobre-nos-petyParty-história  Fim *****/ -->
+                            <!-- /******* sobre-nos-petParty-história  Fim *****/ -->
 
                             <!-- /******* sobre-nos-patyParty  Inicio *****/ -->
                             <div class="sobre-nos-patyParty col-sm-6 " data-aos="fade-right">
@@ -133,7 +133,7 @@
                   <!-- /******* section-missao  Inicio *****/         -->
                          <div class=" col-sm-4 col-md-4 col-lg-4 col-xl-4">
                              <div class="section-missao">
-                                 <p><img src="img/categori/sobrenos/missao-sobrenos.png"   alt="img-missao"></p>
+                                 <p><img src="img/categoria/sobrenos/missao-sobrenos.png"   alt="img-missao"></p>
                                   <p class="section-titulo-missao">Missão</p>
                                   <p class="section-texto-missao">Proporcionar as pessoas maior qualidade de vida por meio de métodos inovadores, propiciando assim uma vida mais leve</p>
                              </div>
@@ -143,7 +143,7 @@
                           <!-- /******* section-visao  Inicio *****/ -->
                          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
                           <div class="section-visao">
-                              <p><img src="img/categori/sobrenos/visao-sobrenos.png"   alt="img-visao"></p>
+                              <p><img src="img/categoria/sobrenos/visao-sobrenos.png"   alt="img-visao"></p>
                                <p class="section-titulo-visao">Visão</p>
                                <p class="section-texto-visao">Proporcionar as pessoas maior qualidade de vida por meio de métodos inovadores, propiciando assim uma vida mais leve</p>
                           </div>
@@ -153,7 +153,7 @@
                          <!-- /******* section-valores  Inicio *****/ -->
                          <div class=" col-sm-4 col-md-4 col-lg-4 col-xl-4">
                           <div class="section-valores">
-                              <p><img src="img/categori/sobrenos/valores-sobrenos.png"  alt="img-valores"></p>
+                              <p><img src="img/categoria/sobrenos/valores-sobrenos.png"  alt="img-valores"></p>
                                <p class="section-titulo-valores">Valores</p>
                                <p class="section-texto-valores">Proporcionar as pessoas maior qualidade de vida por meio de métodos inovadores, propiciando assim uma vida mais leve</p>
                           </div>

@@ -180,7 +180,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros4.jpg" alt="">
+                                        <img src="img/categoria/produtos-cachorros/produto-cachorros4.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -203,7 +203,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros5.jpg" alt="">
+                                        <img src="img/categoria/produtos-cachorros/produto-cachorros5.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -226,7 +226,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros.jpg" alt="">
+                                        <img src="img/categoria/produtos-cachorros/produto-cachorros.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -252,7 +252,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros2.jpg" alt="">
+                                        <img src="img/categoria/produtos-cachorros/produto-cachorros2.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -275,7 +275,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros3.jpg" alt="">
+                                        <img src="img/categoria/produtos-cachorros/produto-cachorros3.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -301,7 +301,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros6.jpg" alt="">
+                                        <img src="img/categoria/produtos-cachorros/produto-cachorros6.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -332,7 +332,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -355,7 +355,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos3.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos3.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -381,7 +381,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos2.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos2.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -407,7 +407,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos4.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos4.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -430,7 +430,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos5.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos5.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -456,7 +456,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos6.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos6.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -484,7 +484,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-festas/produtos-festas.jpg" alt="">
+                                        <img src="img/categoria/produtos-festas/produtos-festas.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -510,7 +510,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos2.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos2.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -533,7 +533,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos2.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos2.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -559,7 +559,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-festas/Temas_festas4.jpg" alt="">
+                                        <img src="img/categoria/produtos-festas/Temas_festas4.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -582,7 +582,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos2.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos2.jpg" alt="">
                                     </div>
                                     <div class="product-caption">
                                         <div class="product-ratting">
@@ -605,7 +605,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-gatos/produtos-gatos2.jpg" alt="">
+                                        <img src="img/categoria/produtos-gatos/produtos-gatos2.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -638,7 +638,7 @@
 
         <!-- inscrevase-subscribe inicio -->
         <div class="inscrevase lf-padding">
-            <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categori/banner_pattern.png">
+            <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categoria/banner_pattern.png">
                 <div class="container ">
                     <div class="row d-flex align-items-center">
                         <div class="col-xl-5 col-lg-5 col-md-6 offset-xl-1 offset-lg-1">
@@ -715,7 +715,7 @@
 
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:Pety Party| Pety Party S.A.
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:pet Party| pet Party S.A.
       CNPJ 12.345.678./0001-00 Rua do pet-Vila
       dos Animais,SP | CEP 00000-000
   </div>

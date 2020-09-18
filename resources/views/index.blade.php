@@ -112,8 +112,9 @@
             <div class="col-lg-7 col-xl-6">
                 <div class="banner_text">
                     <h5>Bem Vindo ao Pet Party</h5>
-                    <h1>Compartilhe com seu pet
-                        os melhores momentos</h1>
+                    <h1>Compartilhe os melhores momentos da sua vida
+                      com seu pet
+                        </h1>
                 </div>
             </div>
         </div>
@@ -127,10 +128,10 @@
       <div class="about-img col-md-6 ">
       </div>
       <div class="about-text col-md-5">
-        <h3>Reuniões,Festas ou
-            Eventos.</h3>
+        <h3>Reuniões, festas ou
+            eventos.</h3>
         <p>Aqui no Pet Party,proporcionaremos todo carinho e atenção que seu pet merece
-          e que voce com certeza gostaria que ele recebe-se! </p>
+          e que você com certeza gostaria que ele recebesse! </p>
         <div class="">
           <a href="#" class="btn_1 btn btn-lg ">Sobre Nós</a>
         </div>

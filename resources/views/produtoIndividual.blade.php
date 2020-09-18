@@ -150,7 +150,7 @@
 
       <div class="col-md-3 col-sm-6 mb-4">
         <a href="#">
-              <img class="img-fluid img-thumbnail" src="img/categori/produto-individual/produto-chapeu3.jpg" alt="">
+              <img class="img-fluid img-thumbnail" src="img/categoria/produto-individual/produto-chapeu3.jpg" alt="">
             </a>
       </div>
 
@@ -161,7 +161,7 @@
 
           <!-- inscrevase-subscribe inicio -->
           <div class="inscrevase lf-padding">
-            <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categori/banner_pattern.png">
+            <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categoria/banner_pattern.png">
                 <div class="container ">
                     <div class="row d-flex align-items-center">
                         <div class="col-xl-5 col-lg-5 col-md-6 offset-xl-1 offset-lg-1">
@@ -189,7 +189,7 @@
         <!-- inscrevase-subscribe fim -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:Pety Party| Pety Party S.A.
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:pet Party| pet Party S.A.
       CNPJ 12.345.678./0001-00 Rua do pet-Vila
       dos Animais,SP | CEP 00000-000
   </div>

@@ -110,7 +110,7 @@
               <div class="col-lg-7 col-xl-6">
                   <div class="banner_faq_text">
                       <h5>Bem Vindo ao Pet Party</h5>
-                      <h1>Olá , Aqui esclareceremos algumas das duvidas mais frequentes!</h1>
+                      <h1>Olá , Aqui esclareceremos algumas das suas dúvidas mais frequentes!</h1>
                   </div>
               </div>
           </div>

@@ -155,7 +155,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="single-product mb-60">
                                     <div class="produto-img">
-                                        <img src="img/categori/produtos-cachorros/produto-cachorros.jpg" alt="">
+                                        <img src="img/categoria/produtos-cachorros/produto-cachorros.jpg" alt="">
                                         <div class="produto-lancamento">
                                             <span>Novo</span>
                                         </div>
@@ -185,7 +185,7 @@
 
 <!-- inscrevase-subscribe inicio -->
 <div class="inscrevase lf-padding">
-    <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categori/banner_pattern.png">
+    <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categoria/banner_pattern.png">
         <div class="container ">
             <div class="row d-flex align-items-center">
                 <div class="col-xl-5 col-lg-5 col-md-6 offset-xl-1 offset-lg-1">
