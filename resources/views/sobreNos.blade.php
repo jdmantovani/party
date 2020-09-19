@@ -109,7 +109,7 @@
                <div class="sobre-nos">
                 <!-- /******* sobre-nos-petParty-história  Inicio *****/  -->
                   <div class="sobre-nos-petParty-história col-sm-12" data-aos="fade-left">
-                      <h3>História da  PARTY</h3>
+                      <h3>História da PET PARTY</h3>
                       <p>Tudo começou em uma aula da Digital House. A gente tinha acabado de separar os grupos para iniciar o Projeto Integrador e era a primeira vez que nos reuníamos. Em várias conversas percebemos que todos os integrantes eram apaixonados por animais, então tivémos a ideia de criar algo para os humanos e seus pets.
                       </p>
                       <p>Além disso, a indústria pet tem sido dominada pelas mesmas super empresas por décadas. A mentalidade da indústria foi sempre de empurrar produtos que eles achavam que iriam satisfazer você, e nunca trouxeram realmente nada de novo em todos esses anos. Eles vendem para distribuidores, que vendem para pet shops e aí sim para o cliente final. Essa falta de proximidade entre marca e cliente é o cenário comum desde o inicio dos tempos.
