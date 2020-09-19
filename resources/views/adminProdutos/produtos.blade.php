@@ -29,13 +29,13 @@
     <link href="https://fonts.googleapis.com/css?family=Anton%7CBaloo%7CBebas+Neue%7CNiconne%7CPermanent+Marker&display=swap" rel="stylesheet">
     <!-- Font Awesome JS -->
     <script src="https://kit.fontawesome.com/f7c3018ae1.js" crossorigin="anonymous"></script>
- <!-- link css -->
- <link rel="stylesheet" href="{{ asset('css/stylo.css')}}">
- <link rel="stylesheet" href="{{ asset('css/query.css')}}">
- <link rel="stylesheet" href="{{ asset('css/registro.css')}}">
- <link rel="stylesheet" href="{{ asset('css/produtos.css')}}">
- <link rel="stylesheet" href="{{ asset('css/about.css')}}">
- <link rel="stylesheet" href="{{ asset('css/faq.css')}}">
+    <!-- link css -->
+    <link rel="stylesheet" href="{{ asset('css/stylo.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/query.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/registro.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/produtos.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/about.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/faq.css')}}">
     <div class="sub_header">
       <div class="container">
           <div class="row align-items-center">

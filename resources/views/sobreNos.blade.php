@@ -107,6 +107,7 @@
             <!----- Header-fim ----->
             <!----- sobre-nos-patyParty  Inicio ----->
                <div class="sobre-nos">
+<<<<<<< HEAD
                     <div>
                         <div class="row no-gutters ">
                           <!-- /******* sobre-nos-petParty-história  Inicio *****/  -->
@@ -133,6 +134,20 @@
                           </div>
                         </div>
                     </div>
+=======
+                <!-- /******* sobre-nos-petParty-história  Inicio *****/  -->
+                  <div class="sobre-nos-petParty-história col-sm-12" data-aos="fade-left">
+                      <h3>História da PETY PARTY</h3>
+                      <p>Tudo começou em uma aula da Digital House. A gente tinha acabado de separar os grupos para iniciar o Projeto Integrador e era a primeira vez que nos reuníamos. Em várias conversas percebemos que todos os integrantes eram apaixonados por animais, então tivémos a ideia de criar algo para os humanos e seus pets.
+                      </p>
+                      <p>Além disso, a indústria pet tem sido dominada pelas mesmas super empresas por décadas. A mentalidade da indústria foi sempre de empurrar produtos que eles achavam que iriam satisfazer você, e nunca trouxeram realmente nada de novo em todos esses anos. Eles vendem para distribuidores, que vendem para pet shops e aí sim para o cliente final. Essa falta de proximidade entre marca e cliente é o cenário comum desde o inicio dos tempos.
+                    </p>
+                    <p>
+                      Então, decidimos consolidar em uma plataforma web as melhores experiências em compras de produtos para os pets, e também, conseguir criar uma comunidade de pessoas que amam seus animais e que procuram uma alternativa.
+                    </p>
+                    <p>Seja bem-vindo a nossa família!</p>
+                  </div>
+>>>>>>> 62c8f9a495b473ac3459fe96431ac3278061a6d3
                 </div>
                <!----- sobre-nos-patyParty  Fim ----->
                <div class="espaco-section"></div>
@@ -143,8 +158,13 @@
                          <div class=" col-sm-4 col-md-4 col-lg-4 col-xl-4">
                              <div class="section-missao">
                                  <p><img src="img/categoria/sobrenos/missao-sobrenos.png"   alt="img-missao"></p>
+<<<<<<< HEAD
                                   <p class="section-titulo-missao">Missão</p>
                                   <p class="section-texto-missao">Proporcionar às pessoas e seus animais de estimação maior qualidade de vida.</p>
+=======
+                                  <p class="section-titulo-missao"><em>Nossa Missão:</em></p>
+                                  <p class="section-texto-missao">Proporcionar cada vez mais a conexão entre os pets e as pessoas, além de uma experiência única de compras através da oferta de uma ampla linha de produtos de qualidade.</p>
+>>>>>>> 62c8f9a495b473ac3459fe96431ac3278061a6d3
                              </div>
                           </div>
                           <!-- /******* section-missao  fim *****/ -->
@@ -154,7 +174,7 @@
                           <div class="section-visao">
                               <p><img src="img/categoria/sobrenos/visao-sobrenos.png"   alt="img-visao"></p>
                                <p class="section-titulo-visao"><em>Nossa Visão:</em></p>
-                               <p class="section-texto-visao">Proporcionar cada vez mais a conexão entre os pets e as pessoas.</p>
+                               <p class="section-texto-visao">Ser referência em compras inovadoras para os Pets.</p>
                           </div>
                          </div>
                          <!-- /******* section-visao  Fim *****/ -->
@@ -165,7 +185,14 @@
                               <p><img src="img/categoria/sobrenos/valores-sobrenos.png"  alt="img-valores"></p>
                                <p class="section-titulo-valores"><em>Nossos Valores:</em></p>
                                <p class="section-texto-valores">
+<<<<<<< HEAD
                                 Amamos muito os pets, cativamos nossos clientes, temos prazer em servir
+=======
+                                   1. Amamos muito os pets;<br/>
+                                    2. Cativamos nossos clientes;<br/>
+                                    3. Temos prazer em servir;<br/>
+                                    4. Temos compromisso com o cliente;<br/>
+>>>>>>> 62c8f9a495b473ac3459fe96431ac3278061a6d3
                                </p>
                           </div>
                        </div>
