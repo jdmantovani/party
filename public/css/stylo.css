@@ -34,6 +34,10 @@ p {
 }
 
 /***************Sub_header****************/
+.padding {
+  padding-bottom: 24px;
+}
+
 .sub_header {
   padding: 0;
   background-color: rgb(255, 246, 246);

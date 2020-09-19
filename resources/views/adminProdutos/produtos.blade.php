@@ -42,12 +42,12 @@
           <div class="row align-items-center">
             <div class="col-4 col-md-4 col-xl-6">
                 <div id="logo">
-                    <a href="index.html"><img src="{{asset('img/Logo_pet_party.png')}}" style="width: 80px;"  alt="" title=""></a>
+                    <a href="{{route('home')}}"><img src="{{asset('img/Logo_pet_party.png')}}" style="width: 80px;"  alt="" title=""></a>
                 </div>
             </div>
             <div class="col-8 col-md-8 col-xl-6 ">
                 <div class="sub_header_social_icon float-right">
-                  <a href="#"><i class="fab fa-whatsapp"></i></i>+02 213- 256 (365)</a>
+                  <a href="https://api.whatsapp.com/send?phone=5511986576319"><i class="fab fa-whatsapp"></i></i>+02 213- 256 (365)</a>
                   <a href="#" class="btn_1  d-md-inline-block">Contato</a>
                 </div>
               </div>
