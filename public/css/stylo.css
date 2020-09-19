@@ -35,6 +35,7 @@ p {
 
 /***************Sub_header****************/
 .padding {
+  margin-top: -48px;
   padding-bottom: 24px;
 }
 
