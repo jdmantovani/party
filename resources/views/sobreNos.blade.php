@@ -43,7 +43,7 @@
               </div>
               <div class="col-8 col-md-8 col-xl-6 ">
                   <div class="sub_header_social_icon float-right">
-                    <a href="#"><i class="fab fa-whatsapp"></i></i>+02 213 - 256 (365)</a>
+                  <a href="https://api.whatsapp.com/send?phone=5511986576319"><i class="fab fa-whatsapp"></i></i>11 986576319</a>
                     <a href="#" class="btn_1  d-md-inline-block">Contato</a>
                   </div>
                 </div>
@@ -78,13 +78,14 @@
                               Serviços
                           </a>
                           <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item font-nav" href="{{route('alimentos')}}">Alimentos</a>
+                          <a class="dropdown-item font-nav" href="{{route('alimentos')}}">Alimentos</a>
+                          <a class="dropdown-item font-nav" href="{{route('produtos')}}">Produtos</a>
                               <a class="dropdown-item font-nav" href="#">Ambientes</a>
                               <a class="dropdown-item font-nav" href="#">Decorações</a>
-                          <a class="dropdown-item font-nav" href="{{route('produtos')}}">Produtos</a>
-                              <div class="dropdown-divider"></div>
+                              
+                              <!--<div class="dropdown-divider"></div>
                               <a class="dropdown-item font-nav" href="#">Parceiros</a>
-                          </div>
+                          </div>-->
                       </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle font-nav" href="#" id="navbarDropdown" role="button"
@@ -111,15 +112,24 @@
                           <!-- /******* sobre-nos-petParty-história  Inicio *****/  -->
                             <div class="sobre-nos-petParty-história col-sm-6" data-aos="fade-left">
                                 <h3>História</h3>
-                                <p></p>
-                                <p></p>
+                                <p>A PetParty nasceu da necessidade de reunir organizadores de buffet para pet,
+                   produtos e acessórios num só lugar. Como donos de pets que somos tínhamos dificuldades em encontrar tudo isso em um único site. 
+                   Por isso criamos esta loja que além de te permitir encontrar todos os itens necessários para organizar aquela festa para seu filhinho(a) animal
+                   ainda torna possível viver toda uma experiência de montar uma festa inesquecível, com bolo personalizado, lembrancinhas e até brinquedos
+                   com o nome do seu bichinho! </p>
+                                
                             </div>
                             <!-- /******* sobre-nos-petParty-história  Fim *****/ -->
 
                             <!-- /******* sobre-nos-patyParty  Inicio *****/ -->
                             <div class="sobre-nos-patyParty col-sm-6 " data-aos="fade-right">
                               <h3 >Pet Party</h3>
-                              <p>FEITO PARA VOCÊ E PARA O SEU </p>
+                              <p> Como temos nossos "filhinhos de quatro patas" em casa, possuímos o diferencial de saber exatamente
+                como é complicado montar uma festinha para eles. Se achamos um local que vende um bolo para pet,
+                ainda falta encontrar a decoração, as lembrancinhas, arrumar um lugar para fazer a festa... São todas
+                estas preocupações as quais tentamos diminuir ao montar nosso site. Por isso, sinta-se num ambiente
+                especialmente planejado para facilitar sua vida neste momento tão especial quanto o aniversário de seu
+                pet. </p>
                           </div>
                         </div>
                     </div>
@@ -134,7 +144,7 @@
                              <div class="section-missao">
                                  <p><img src="img/categoria/sobrenos/missao-sobrenos.png"   alt="img-missao"></p>
                                   <p class="section-titulo-missao">Missão</p>
-                                  <p class="section-texto-missao">Proporcionar as pessoas maior qualidade de vida por meio de métodos inovadores, propiciando assim uma vida mais leve</p>
+                                  <p class="section-texto-missao">Proporcionar às pessoas e seus animais de estimação maior qualidade de vida.</p>
                              </div>
                           </div>
                           <!-- /******* section-missao  fim *****/ -->
@@ -155,11 +165,7 @@
                               <p><img src="img/categoria/sobrenos/valores-sobrenos.png"  alt="img-valores"></p>
                                <p class="section-titulo-valores"><em>Nossos Valores:</em></p>
                                <p class="section-texto-valores">
-                                 <ul>
-                                   <li>1. Amamos muito os pets;</li>
-                                    <li>2. Cativamos nossos clientes;</li>
-                                    <li>3. Temos prazer em servir;</li>
-                                  </ul>
+                                Amamos muito os pets, cativamos nossos clientes, temos prazer em servir
                                </p>
                           </div>
                        </div>

@@ -7,13 +7,13 @@
      <link rel="shortcut icon" href="{{asset('img/favicon_transp.png')}}" />
 
    <!-- css_bootstrap -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link rel="stylesheet" href="{{asset('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css')}}" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- Animate-aos -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="{{asset('https://unpkg.com/aos@next/dist/aos.css')}}" />
 
    <!-- google_fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Anton|Baloo|Bebas+Neue|Niconne|Permanent+Marker&display=swap" rel="stylesheet">
+   <link href="{{asset('https://fonts.googleapis.com/css?family=Montserrat&display=swap')}}" rel="stylesheet">
+   <link href="{{asset('https://fonts.googleapis.com/css?family=Anton|Baloo|Bebas+Neue|Niconne|Permanent+Marker&display=swap')}}" rel="stylesheet">
 
 
 
@@ -79,12 +79,13 @@
                           </a>
                           <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
                           <a class="dropdown-item font-nav" href="{{route('alimentos')}}">Alimentos</a>
+                          <a class="dropdown-item font-nav" href="{{route('produtos')}}">Produtos</a>
                               <a class="dropdown-item font-nav" href="#">Ambientes</a>
                               <a class="dropdown-item font-nav" href="#">Decorações</a>
-                              <a class="dropdown-item font-nav" href="{{route('produtos')}}">Produtos</a>
-                              <div class="dropdown-divider"></div>
+                              
+                              <!--<div class="dropdown-divider"></div>
                               <a class="dropdown-item font-nav" href="#">Parceiros</a>
-                          </div>
+                          </div>-->
                       </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle font-nav" href="#" id="navbarDropdown" role="button"
@@ -197,16 +198,16 @@
 
 
 
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="{{asset('https://unpkg.com/aos@next/dist/aos.js')}}"></script>
         <script>
           AOS.init();
         </script>
          <!-- jQuery CDN - Slim version (=without AJAX) -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="{{asset('https://code.jquery.com/jquery-3.3.1.slim.min.js')}}" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <!-- Popper.JS -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="{{asset('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js')}}" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
       <!-- Bootstrap JS -->
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <script src="{{asset('https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js')}}" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 
 
