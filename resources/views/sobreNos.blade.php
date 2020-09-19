@@ -107,37 +107,9 @@
             <!----- Header-fim ----->
             <!----- sobre-nos-patyParty  Inicio ----->
                <div class="sobre-nos">
-<<<<<<< HEAD
-                    <div>
-                        <div class="row no-gutters ">
-                          <!-- /******* sobre-nos-petParty-história  Inicio *****/  -->
-                            <div class="sobre-nos-petParty-história col-sm-6" data-aos="fade-left">
-                                <h3>História</h3>
-                                <p>A PetParty nasceu da necessidade de reunir organizadores de buffet para pet,
-                   produtos e acessórios num só lugar. Como donos de pets que somos tínhamos dificuldades em encontrar tudo isso em um único site. 
-                   Por isso criamos esta loja que além de te permitir encontrar todos os itens necessários para organizar aquela festa para seu filhinho(a) animal
-                   ainda torna possível viver toda uma experiência de montar uma festa inesquecível, com bolo personalizado, lembrancinhas e até brinquedos
-                   com o nome do seu bichinho! </p>
-                                
-                            </div>
-                            <!-- /******* sobre-nos-petParty-história  Fim *****/ -->
-
-                            <!-- /******* sobre-nos-patyParty  Inicio *****/ -->
-                            <div class="sobre-nos-patyParty col-sm-6 " data-aos="fade-right">
-                              <h3 >Pet Party</h3>
-                              <p> Como temos nossos "filhinhos de quatro patas" em casa, possuímos o diferencial de saber exatamente
-                como é complicado montar uma festinha para eles. Se achamos um local que vende um bolo para pet,
-                ainda falta encontrar a decoração, as lembrancinhas, arrumar um lugar para fazer a festa... São todas
-                estas preocupações as quais tentamos diminuir ao montar nosso site. Por isso, sinta-se num ambiente
-                especialmente planejado para facilitar sua vida neste momento tão especial quanto o aniversário de seu
-                pet. </p>
-                          </div>
-                        </div>
-                    </div>
-=======
                 <!-- /******* sobre-nos-petParty-história  Inicio *****/  -->
                   <div class="sobre-nos-petParty-história col-sm-12" data-aos="fade-left">
-                      <h3>História da PETY PARTY</h3>
+                      <h3>História da  PARTY</h3>
                       <p>Tudo começou em uma aula da Digital House. A gente tinha acabado de separar os grupos para iniciar o Projeto Integrador e era a primeira vez que nos reuníamos. Em várias conversas percebemos que todos os integrantes eram apaixonados por animais, então tivémos a ideia de criar algo para os humanos e seus pets.
                       </p>
                       <p>Além disso, a indústria pet tem sido dominada pelas mesmas super empresas por décadas. A mentalidade da indústria foi sempre de empurrar produtos que eles achavam que iriam satisfazer você, e nunca trouxeram realmente nada de novo em todos esses anos. Eles vendem para distribuidores, que vendem para pet shops e aí sim para o cliente final. Essa falta de proximidade entre marca e cliente é o cenário comum desde o inicio dos tempos.
@@ -147,7 +119,6 @@
                     </p>
                     <p>Seja bem-vindo a nossa família!</p>
                   </div>
->>>>>>> 62c8f9a495b473ac3459fe96431ac3278061a6d3
                 </div>
                <!----- sobre-nos-patyParty  Fim ----->
                <div class="espaco-section"></div>
@@ -158,13 +129,8 @@
                          <div class=" col-sm-4 col-md-4 col-lg-4 col-xl-4">
                              <div class="section-missao">
                                  <p><img src="img/categoria/sobrenos/missao-sobrenos.png"   alt="img-missao"></p>
-<<<<<<< HEAD
-                                  <p class="section-titulo-missao">Missão</p>
-                                  <p class="section-texto-missao">Proporcionar às pessoas e seus animais de estimação maior qualidade de vida.</p>
-=======
                                   <p class="section-titulo-missao"><em>Nossa Missão:</em></p>
                                   <p class="section-texto-missao">Proporcionar cada vez mais a conexão entre os pets e as pessoas, além de uma experiência única de compras através da oferta de uma ampla linha de produtos de qualidade.</p>
->>>>>>> 62c8f9a495b473ac3459fe96431ac3278061a6d3
                              </div>
                           </div>
                           <!-- /******* section-missao  fim *****/ -->
@@ -185,14 +151,10 @@
                               <p><img src="img/categoria/sobrenos/valores-sobrenos.png"  alt="img-valores"></p>
                                <p class="section-titulo-valores"><em>Nossos Valores:</em></p>
                                <p class="section-texto-valores">
-<<<<<<< HEAD
-                                Amamos muito os pets, cativamos nossos clientes, temos prazer em servir
-=======
                                    1. Amamos muito os pets;<br/>
                                     2. Cativamos nossos clientes;<br/>
                                     3. Temos prazer em servir;<br/>
                                     4. Temos compromisso com o cliente;<br/>
->>>>>>> 62c8f9a495b473ac3459fe96431ac3278061a6d3
                                </p>
                           </div>
                        </div>
