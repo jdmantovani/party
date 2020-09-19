@@ -24,9 +24,8 @@
     line-height: 1,0;
     font-weight: 600; 
     margin-left: 20px;
-    margin-top: 80px;
     margin-bottom: 20px;
-
+    padding-top: 24px;
 }
 .sobre-nos-petParty-história p{
     margin-left:20px;
@@ -48,7 +47,6 @@
     line-height: 1,0;
     font-weight: 600;    
     margin-left: 20px;
-    margin-top: 80px;
     margin-bottom: 20px;
 }
 
@@ -64,12 +62,12 @@
  
 /******* sobre-nos section Inicio *****/
 .sobre-nos-section{
-    background-color:rgb(71, 71, 71);
+    background-color: #87D6C8;
     height: auto;
 }
 /******* section-missao  Inicio *****/
 .section-missao{
-    background-color:rgb(71, 71, 71);
+    background-color: #87D6C8;
     text-align: center;
     height:auto;  
 }
@@ -84,10 +82,9 @@
 .section-texto-missao{
     margin-left:20px;
     margin-right:20px;    
-    color: white;
+    color: black;
     font-weight: 400;
     text-align: left;
-
 }
 .section-missao p img{
     width: 50px;
@@ -98,7 +95,7 @@
 /******* section-visao  Inicio *****/
 .section-visao{
     text-align: center;
-    background-color:black;
+    background-color: #F5A40C;
     height:auto;
 }
 
@@ -111,7 +108,7 @@
 .section-texto-visao{
     margin-left:20px;
     margin-right:20px;
-    color: white;
+    color: black;
     font-weight: 400;
     text-align: left;
 }
@@ -124,7 +121,7 @@
 
 /******* section-valores  Inicio *****/
 .section-valores{
-    background-color:rgb(71, 71, 71);
+    background-color: #87D6C8;
     text-align: center;
     height:auto;
 }
@@ -137,10 +134,10 @@
 .section-texto-valores{
     margin-left:20px;
     margin-right:20px;
-    color: white;
+    color: black;
     font-weight: 400;
     text-align: left;
-
+    padding-left: 110px;
 }
 .section-valores p img{
     width: 50px;
@@ -153,14 +150,14 @@
 /******* espaco  Inicio *****/
 
 .espaco-section{
-    background-color:rgb(71, 71, 71);
+    background-color:#FFD8DB;
     height:75px;
     margin: 0;
     padding: 0;
 
 }
 .espaco-footer{
-    background-color:rgb(71, 71, 71);
+    background-color: #FFD8DB;
     height: 75px;
     margin: 0;
     padding: 0; 
@@ -241,7 +238,7 @@
 @media  (min-width:575px) and (max-width:764px){
     .sobre-nos-petParty-história h3{
         font-size: 36px;
-        color: white;
+        color: black;
         line-height: 1,0;
         font-weight: 600; 
         text-align: center;       
@@ -300,9 +297,7 @@
         line-height: 1,0;
         font-weight: 600; 
         text-align: center;     
-        margin-top: 110px;  
         margin-bottom: 20px;
-    
     }
     .sobre-nos-petParty-história p{
         margin-left:95px;
@@ -325,8 +320,7 @@
 @media (min-width: 1280px){
     .sobre-nos-petParty-história{
         background: none;
-        background-color: rgb(255, 250, 248);
-              
+        background-color: #FFF6F6;
     }
 
 }
