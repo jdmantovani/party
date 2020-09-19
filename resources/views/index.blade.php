@@ -133,7 +133,7 @@
         <p>Aqui no Pet Party,proporcionaremos todo carinho e atenção que seu pet merece
           e que você com certeza gostaria que ele recebesse! </p>
         <div class="">
-          <a href="#" class="btn_1 btn btn-lg ">Sobre Nós</a>
+          <a href="{{route('sobreNos')}}" class="btn_1 btn btn-lg ">Sobre Nós</a>
         </div>
       </div>
     </div>
@@ -601,13 +601,13 @@
           <h5>Serviços</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Alimentos</a>
+              <a href="{{route('alimentos')}}">Alimentos</a>
             </li>
             <li>
-              <a href="#!">Ambiente</a>
+              <a href="{{route('faq')}}">Ambiente</a>
             </li>
             <li>
-              <a href="#!">Produtos</a>
+              <a href="{{route('produtos')}}">Produtos</a>
             </li>
           </ul>
         </div>
@@ -616,22 +616,7 @@
           <h5 >Ajuda</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!">F.A.Q</a>
-            </li>
-            <li>
-              <a href="#!">Cancelamentos</a>
-            </li>
-            <li>
-              <a href="#!">Troca</a>
-            </li>
-          </ul>
-        </div>
-        <hr class="clearfix w-100 d-md-none">
-        <div class="footer-conteudo-ajuda col-md-2 mx-auto">
-          <h5>Ajuda</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">F.A.Q</a>
+              <a href="{{route('faq')}}">F.A.Q</a>
             </li>
             <li>
               <a href="#!">Cancelamentos</a>
@@ -672,10 +657,6 @@
       dos Animais,SP | CEP 00000-000
   </div>
 </div>
-
-
-
-
 
           <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
           <script>

@@ -183,14 +183,14 @@
         <div class="footer-conteudo-servicos col-md-2 mx-auto">
           <h5>Serviços</h5>
           <ul class="list-unstyled">
-            <li>
-              <a href="#!">Alimentos</a>
+          <li>
+              <a href="{{route('alimentos')}}">Alimentos</a>
             </li>
             <li>
-              <a href="#!">Ambiente</a>
+              <a href="{{route('faq')}}">Ambiente</a>
             </li>
             <li>
-              <a href="#!">Produtos</a>
+              <a href="{{route('produtos')}}">Produtos</a>
             </li>
           </ul>
         </div>
@@ -198,23 +198,8 @@
         <div class="footer-conteudo-ajuda col-md-2 mx-auto">
           <h5 >Ajuda</h5>
           <ul class="list-unstyled">
-            <li>
-              <a href="#!">F.A.Q</a>
-            </li>
-            <li>
-              <a href="#!">Cancelamentos</a>
-            </li>
-            <li>
-              <a href="#!">Troca</a>
-            </li>
-          </ul>
-        </div>
-        <hr class="clearfix w-100 d-md-none">
-        <div class="footer-conteudo-ajuda col-md-2 mx-auto">
-          <h5>Ajuda</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">F.A.Q</a>
+          <li>
+              <a href="{{route('faq')}}">F.A.Q</a>
             </li>
             <li>
               <a href="#!">Cancelamentos</a>

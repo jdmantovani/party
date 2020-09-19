@@ -111,16 +111,15 @@
                           <!-- /******* sobre-nos-petParty-história  Inicio *****/  -->
                             <div class="sobre-nos-petParty-história col-sm-6" data-aos="fade-left">
                                 <h3>História</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
+                                <p></p>
+                                <p></p>
                             </div>
                             <!-- /******* sobre-nos-petParty-história  Fim *****/ -->
 
                             <!-- /******* sobre-nos-patyParty  Inicio *****/ -->
                             <div class="sobre-nos-patyParty col-sm-6 " data-aos="fade-right">
                               <h3 >Pet Party</h3>
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda alias commodi iusto aliquid s !</p>
+                              <p>FEITO PARA VOCÊ E PARA O SEU </p>
                           </div>
                         </div>
                     </div>
@@ -144,8 +143,8 @@
                          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
                           <div class="section-visao">
                               <p><img src="img/categoria/sobrenos/visao-sobrenos.png"   alt="img-visao"></p>
-                               <p class="section-titulo-visao">Visão</p>
-                               <p class="section-texto-visao">Proporcionar as pessoas maior qualidade de vida por meio de métodos inovadores, propiciando assim uma vida mais leve</p>
+                               <p class="section-titulo-visao"><em>Nossa Visão:</em></p>
+                               <p class="section-texto-visao">Proporcionar cada vez mais a conexão entre os pets e as pessoas.</p>
                           </div>
                          </div>
                          <!-- /******* section-visao  Fim *****/ -->
@@ -154,8 +153,14 @@
                          <div class=" col-sm-4 col-md-4 col-lg-4 col-xl-4">
                           <div class="section-valores">
                               <p><img src="img/categoria/sobrenos/valores-sobrenos.png"  alt="img-valores"></p>
-                               <p class="section-titulo-valores">Valores</p>
-                               <p class="section-texto-valores">Proporcionar as pessoas maior qualidade de vida por meio de métodos inovadores, propiciando assim uma vida mais leve</p>
+                               <p class="section-titulo-valores"><em>Nossos Valores:</em></p>
+                               <p class="section-texto-valores">
+                                 <ul>
+                                   <li>1. Amamos muito os pets;</li>
+                                    <li>2. Cativamos nossos clientes;</li>
+                                    <li>3. Temos prazer em servir;</li>
+                                  </ul>
+                               </p>
                           </div>
                        </div>
                        <!-- /******* section-valores  Inicio *****/ -->

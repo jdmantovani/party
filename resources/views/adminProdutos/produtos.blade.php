@@ -18,7 +18,42 @@
  
     <!-- Font Awesome JS -->
      <script src="https://kit.fontawesome.com/f7c3018ae1.js" crossorigin="anonymous"></script>
-    <title>Catálogo de Produtos</title>
+      <!-- css_bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <!-- Animate-aos -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- link-FAVICON -->
+    <link rel="shortcut icon" href="{{asset('img/favicon_transp.png')}}" />
+    <!-- google_fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CBaloo%7CBebas+Neue%7CNiconne%7CPermanent+Marker&display=swap" rel="stylesheet">
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/f7c3018ae1.js" crossorigin="anonymous"></script>
+ <!-- link css -->
+ <link rel="stylesheet" href="{{ asset('css/stylo.css')}}">
+ <link rel="stylesheet" href="{{ asset('css/query.css')}}">
+ <link rel="stylesheet" href="{{ asset('css/registro.css')}}">
+ <link rel="stylesheet" href="{{ asset('css/produtos.css')}}">
+ <link rel="stylesheet" href="{{ asset('css/about.css')}}">
+ <link rel="stylesheet" href="{{ asset('css/faq.css')}}">
+    <div class="sub_header">
+      <div class="container">
+          <div class="row align-items-center">
+            <div class="col-4 col-md-4 col-xl-6">
+                <div id="logo">
+                    <a href="index.html"><img src="img/Logo_pet_party.png" style="width: 80px;"  alt="" title=""></a>
+                </div>
+            </div>
+            <div class="col-8 col-md-8 col-xl-6 ">
+                <div class="sub_header_social_icon float-right">
+                  <a href="#"><i class="fab fa-whatsapp"></i></i>+02 213- 256 (365)</a>
+                  <a href="#" class="btn_1  d-md-inline-block">Contato</a>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+     <title>Catálogo de Produtos</title>
 </head>
 <body>
     <table class="table table-striped">
