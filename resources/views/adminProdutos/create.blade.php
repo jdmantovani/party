@@ -22,12 +22,13 @@
  <link rel="stylesheet" href="{{ asset('css/produtos.css')}}">
  <link rel="stylesheet" href="{{ asset('css/about.css')}}">
  <link rel="stylesheet" href="{{ asset('css/faq.css')}}">
+ <div>
     <div class="sub_header">
       <div class="container">
           <div class="row align-items-center">
             <div class="col-4 col-md-4 col-xl-6">
                 <div id="logo">
-                    <a href="index.html"><img src="img/Logo_pet_party.png" style="width: 80px;"  alt="" title=""></a>
+                    <a href="index.html"><img src="{{asset('img/Logo_pet_party.png')}}" style="width: 80px;"  alt="" title=""></a>
                 </div>
             </div>
             <div class="col-8 col-md-8 col-xl-6 ">
@@ -38,6 +39,7 @@
               </div>
           </div>
       </div>
+    </div>
     </div>
     <title>Catálogo de Produtos</title>
     <link rel="stylesheet" href="{{url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css')}}" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">

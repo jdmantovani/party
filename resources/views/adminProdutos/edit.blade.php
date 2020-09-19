@@ -22,6 +22,7 @@
  <link rel="stylesheet" href="{{ asset('css/produtos.css')}}">
  <link rel="stylesheet" href="{{ asset('css/about.css')}}">
  <link rel="stylesheet" href="{{ asset('css/faq.css')}}">
+ <div>
     <div class="sub_header">
       <div class="container">
           <div class="row align-items-center">
@@ -38,6 +39,7 @@
               </div>
           </div>
       </div>
+    </div>
     </div>
     <title>Catálogo de Produtos</title>
     <link rel="stylesheet" href="{{url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css')}}" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">

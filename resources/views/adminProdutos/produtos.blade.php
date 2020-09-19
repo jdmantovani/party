@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="{{ asset('css/produtos.css')}}">
     <link rel="stylesheet" href="{{ asset('css/about.css')}}">
     <link rel="stylesheet" href="{{ asset('css/faq.css')}}">
-    <div class="teste">
+    <div>
     <div class="sub_header">
       <div class="container">
           <div class="row align-items-center">
