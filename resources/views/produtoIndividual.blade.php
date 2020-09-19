@@ -34,14 +34,14 @@
     <body>
         <!-- sub_header -->
         <div class="sub_header">
-        <div class="container">
+          <div class="container">
             <div class="row align-items-center">
-              <div class="col-4 col-md-4 col-xl-6">
-                  <div id="logo">
-                  <a href="{{route('home')}}"><img src="{{asset("img/Logo_pet_party.png")}}" style="width: 80px;"  alt="" title=""></a>
-                  </div>
-              </div>
-                  <div class="col-8 col-md-8 col-xl-6 ">
+                <div class="col-4 col-md-4 col-xl-6">
+                    <div id="logo">
+                      <a href="{{route('home')}}"><img src="{{asset('img/Logo_pet_party.png')}}" style="width: 80px;"  alt="" title=""></a>
+                    </div>
+                </div>
+                <div class="col-8 col-md-8 col-xl-6 ">
                   <div class="sub_header_social_icon float-right">
                     <a href="https://api.whatsapp.com/send?phone=5511986576319"><i class="fab fa-whatsapp"></i></i>11 986576319</a>
                     <a href="#" class="btn_1  d-md-inline-block">Contato</a>
@@ -49,7 +49,7 @@
                 </div>
             </div>
         </div>
-    </div>
+</div>
     <!-- Sub-header-fim -->
 
             <!-- Header -->
